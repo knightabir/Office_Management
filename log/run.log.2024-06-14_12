@@ -1,0 +1,250 @@
+| 2024:06:14 10:31:37,976 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\hr\onBoarding.py modified; restarting server
+| 2024:06:14 10:31:38,809 | I | root | ------
+| 2024:06:14 10:31:38,863 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 10:31:39,090 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 10:31:39,096 | I | root | main.py 69 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 11:04:36,600 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\main.py modified; restarting server
+| 2024:06:14 11:04:36,993 | I | root | ------
+| 2024:06:14 11:04:37,034 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 11:04:37,211 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 11:04:37,214 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 11:28:40,665 | W | tornado.access | 405 GET /v1/api/update/project (::1) 22.98ms
+| 2024:06:14 11:28:45,632 | W | tornado.access | 405 PUT /v1/api/update/project (::1) 1.02ms
+| 2024:06:14 11:29:06,252 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 11:29:06,611 | I | root | ------
+| 2024:06:14 11:29:06,645 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 11:29:06,796 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 11:29:06,799 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 11:29:10,127 | I | root | web\project\updateProject.py 70 put 	
+| 2024:06:14 11:29:10,128 | D | root | web\project\updateProject.py 156 put RSP	{'code': 4003, 'status': False, 'message': 'Invalid - [ Authorization ]', 'result': []}
+| 2024:06:14 11:29:10,129 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 61.67ms
+| 2024:06:14 11:29:18,533 | D | root | web\project\updateProject.py 156 put RSP	{'code': 4003, 'status': False, 'message': 'You are not authorised to access this resource.', 'result': []}
+| 2024:06:14 11:29:18,534 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 7.17ms
+| 2024:06:14 11:29:28,327 | D | pymongo.serverSelection | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 666bdc2a14eacdc8e0d8dd1a, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "666bdc2a14eacdc8e0d8dd1a"}}
+| 2024:06:14 11:29:28,328 | D | pymongo.serverSelection | {"message": "Waiting for suitable server to become available", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 666bdc2a14eacdc8e0d8dd1a, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "666bdc2a14eacdc8e0d8dd1a"}, "remainingTimeMS": 30}
+| 2024:06:14 11:29:28,331 | D | pymongo.serverSelection | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 666bdc2a14eacdc8e0d8dd1a, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Standalone, rtt: 0.014999999999417923>]>", "clientId": {"$oid": "666bdc2a14eacdc8e0d8dd1a"}, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 11:29:28,335 | D | pymongo.command | {"clientId": {"$oid": "666bdc2a14eacdc8e0d8dd1a"}, "message": "Command started", "command": "{\"find\": \"user\", \"filter\": {\"email\": \"johndoe@gmail.com\"}, \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"4M7js8tBSNmXvfdJEGX/iw==\", \"subType\": \"04\"}}}, \"$db\": \"OfficeDataBase\"}", "commandName": "find", "databaseName": "OfficeDataBase", "requestId": 18467, "operationId": 18467, "driverConnectionId": 1, "serverConnectionId": 92, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 11:29:28,337 | D | pymongo.command | {"clientId": {"$oid": "666bdc2a14eacdc8e0d8dd1a"}, "message": "Command succeeded", "durationMS": 1.99, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"6668259eb27f0e68666fa3ba\"}, \"companyId\": {\"$oid\": \"66681a63ed55f1052413d85c\"}, \"branchId\": {\"$oid\": \"66681d79a3c4ba4888ad4965\"}, \"email\": \"johndoe@gmail.com\", \"password\": {\"$binary\": {\"base64\": \"Z0FBQUFBQm1hQ1dlc0Vfd1RXNDdpZHFLVkRzTzJZTHVBaHpma1hTQXpaVGVqdW9XNXQxelVPbm02eS1NQW1uSjRNOUItM0FHeDBmdXFpd2ozUGZ6d1FnU2h2Y1RiUS1rN0E9PQ==\", \"subType\": \"00\"}}, \"role\": {\"$oid\": \"666824e2c43f23878e12216c\"}, \"active\": true, \"createdAt\": 1718101406408103, \"createdBy\": {\"$oid\": \"6668259eb27f0e68666fa3b9\"}, \"personalInfo\": {\"firstName\": \"John\", \"lastName\": \"Doe\", \"phone\": \"1234567890\"}}], \"ns\": \"OfficeDataBase.user\"}, \"ok\": 1.0}", "commandName": "find", "databaseName": "OfficeDataBase", "requestId": 18467, "operationId": 18467, "driverConnectionId": 1, "serverConnectionId": 92, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 11:29:28,338 | I | STDOUT | {'_id': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'johndoe@gmail.com', 'password': b'gAAAAABmaCWesE_wTW47idqKVDsO2YLuAhzfkXSAzZTejuoW5t1zUOnm6y-MAmnJ4M9B-3AGx0fuqiwj3PfzwQgShvcTbQ-k7A==', 'role': ObjectId('666824e2c43f23878e12216c'), 'active': True, 'createdAt': 1718101406408103, 'createdBy': ObjectId('6668259eb27f0e68666fa3b9'), 'updatedAt': None, 'deletedAt': None, 'deleted': False, 'personalInfo': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}}
+| 2024:06:14 11:29:28,339 | D | pymongo.serverSelection | {"message": "Server selection started", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 666bdc2a14eacdc8e0d8dd1a, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Standalone, rtt: 0.014999999999417923>]>", "clientId": {"$oid": "666bdc2a14eacdc8e0d8dd1a"}}
+| 2024:06:14 11:29:28,339 | D | pymongo.serverSelection | {"message": "Server selection succeeded", "selector": "Primary()", "operation": "find", "topologyDescription": "<TopologyDescription id: 666bdc2a14eacdc8e0d8dd1a, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Standalone, rtt: 0.014999999999417923>]>", "clientId": {"$oid": "666bdc2a14eacdc8e0d8dd1a"}, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 11:29:28,340 | D | pymongo.command | {"clientId": {"$oid": "666bdc2a14eacdc8e0d8dd1a"}, "message": "Command started", "command": "{\"find\": \"role\", \"filter\": {\"_id\": {\"$oid\": \"666824e2c43f23878e12216c\"}}, \"limit\": 1, \"singleBatch\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"4M7js8tBSNmXvfdJEGX/iw==\", \"subType\": \"04\"}}}, \"$db\": \"OfficeDataBase\"}", "commandName": "find", "databaseName": "OfficeDataBase", "requestId": 6334, "operationId": 6334, "driverConnectionId": 1, "serverConnectionId": 92, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 11:29:28,341 | D | pymongo.command | {"clientId": {"$oid": "666bdc2a14eacdc8e0d8dd1a"}, "message": "Command succeeded", "durationMS": 1.014, "reply": "{\"cursor\": {\"firstBatch\": [{\"_id\": {\"$oid\": \"666824e2c43f23878e12216c\"}, \"companyId\": {\"$oid\": \"66681a63ed55f1052413d85c\"}, \"userId\": {\"$oid\": \"66681a63ed55f1052413d85d\"}, \"role\": \"branchManager\"}], \"ns\": \"OfficeDataBase.role\"}, \"ok\": 1.0}", "commandName": "find", "databaseName": "OfficeDataBase", "requestId": 6334, "operationId": 6334, "driverConnectionId": 1, "serverConnectionId": 92, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 11:29:28,348 | D | root | web\login.py 128 post RSP	{'code': 200, 'status': True, 'message': 'Login Successful.', 'result': {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY4MjU5ZWIyN2YwZTY4NjY2ZmEzYmEiLCJjb21wYW55SWQiOiI2NjY4MWE2M2VkNTVmMTA1MjQxM2Q4NWMiLCJ1c2VyUm9sZSI6ImJyYW5jaE1hbmFnZXIifQ.jWH6CX9L0am9vxdejg4gRcRuMmAzrUi9asxi1L2lgDI'}}
+| 2024:06:14 11:29:28,349 | I | tornado.access | 200 POST /v1/api/login (::1) 30.75ms
+| 2024:06:14 11:59:50,035 | D | root | web\project\updateProject.py 156 put RSP	{'code': 4003, 'status': False, 'message': 'You are not authorised to access this resource.', 'result': []}
+| 2024:06:14 11:59:50,036 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 4.00ms
+| 2024:06:14 12:00:42,323 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:00:42,663 | I | root | ------
+| 2024:06:14 12:00:42,702 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:00:42,847 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:00:42,849 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:00:47,558 | I | STDOUT | **************************************** branchManager
+| 2024:06:14 12:00:47,575 | D | root | web\project\updateProject.py 158 put RSP	{'code': 4003, 'status': False, 'message': 'You are not authorised to access this resource.', 'result': []}
+| 2024:06:14 12:00:47,575 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 18.93ms
+| 2024:06:14 12:01:07,885 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:01:08,258 | I | root | ------
+| 2024:06:14 12:01:08,297 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:01:08,473 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:01:08,476 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:01:43,510 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:01:43,868 | I | root | ------
+| 2024:06:14 12:01:43,910 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:01:44,083 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:01:44,087 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:01:57,602 | I | STDOUT | **************************************** branchManager
+| 2024:06:14 12:01:57,624 | D | root | web\project\updateProject.py 158 put RSP	{'code': 4003, 'status': False, 'message': 'You are not authorised to access this resource.', 'result': []}
+| 2024:06:14 12:01:57,625 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 39.20ms
+| 2024:06:14 12:02:51,116 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:02:51,506 | I | root | ------
+| 2024:06:14 12:02:51,547 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:02:51,715 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:02:51,719 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:02:55,106 | I | STDOUT | **************************************** branchManager
+| 2024:06:14 12:02:55,108 | I | STDOUT | **************************************** True
+| 2024:06:14 12:02:55,127 | D | root | web\project\updateProject.py 159 put RSP	{'code': 4003, 'status': False, 'message': 'You are not authorised to access this resource.', 'result': []}
+| 2024:06:14 12:02:55,128 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 23.08ms
+| 2024:06:14 12:04:00,746 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:04:01,075 | I | root | ------
+| 2024:06:14 12:04:01,108 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:04:01,259 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:04:01,262 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:04:02,274 | I | STDOUT | **************************************** branchManager
+| 2024:06:14 12:04:02,275 | I | STDOUT | **************************************** True
+| 2024:06:14 12:04:02,284 | D | root | web\project\updateProject.py 159 put RSP	{'code': 4003, 'status': False, 'message': 'You are not authorised to access this resource.', 'result': []}
+| 2024:06:14 12:04:02,284 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 9.57ms
+| 2024:06:14 12:05:32,289 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:05:32,645 | I | root | ------
+| 2024:06:14 12:05:32,684 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:05:32,857 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:05:32,860 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:07:08,323 | I | STDOUT | **************************************** branchManager
+| 2024:06:14 12:07:08,324 | I | STDOUT | **************************************** True
+| 2024:06:14 12:07:08,366 | D | root | web\project\updateProject.py 160 put RSP	{'code': 4005, 'status': False, 'message': 'Expected request Type JSON.', 'result': []}
+| 2024:06:14 12:07:08,367 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 44.97ms
+| 2024:06:14 12:09:08,374 | I | STDOUT | **************************************** branchManager
+| 2024:06:14 12:09:08,374 | I | STDOUT | **************************************** True
+| 2024:06:14 12:09:08,379 | D | root | web\project\updateProject.py 160 put RSP	{'code': 4005, 'status': False, 'message': 'Expected request Type JSON.', 'result': []}
+| 2024:06:14 12:09:08,380 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 6.76ms
+| 2024:06:14 12:10:01,389 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:10:01,713 | I | root | ------
+| 2024:06:14 12:10:01,755 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:10:01,931 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:10:01,934 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:10:08,557 | I | STDOUT | **************************************** branchManager
+| 2024:06:14 12:10:08,557 | I | STDOUT | **************************************** True
+| 2024:06:14 12:10:08,572 | D | root | web\project\updateProject.py 160 put RSP	{'code': 4512, 'status': False, 'message': 'isActive is not valid.', 'result': []}
+| 2024:06:14 12:10:08,573 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 16.12ms
+| 2024:06:14 12:10:33,453 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:10:33,786 | I | root | ------
+| 2024:06:14 12:10:33,824 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:10:34,005 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:10:34,008 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:10:37,533 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:10:37,914 | I | root | ------
+| 2024:06:14 12:10:37,948 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:10:38,098 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:10:38,102 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:10:40,380 | I | STDOUT | ********************* False
+| 2024:06:14 12:10:40,393 | D | root | web\project\updateProject.py 158 put RSP	{'code': 4512, 'status': False, 'message': 'isActive is not valid.', 'result': []}
+| 2024:06:14 12:10:40,394 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 15.66ms
+| 2024:06:14 12:11:07,138 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:11:07,500 | I | root | ------
+| 2024:06:14 12:11:07,533 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:11:07,681 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:11:07,684 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:11:09,007 | I | STDOUT | ********************* <class 'bool'>
+| 2024:06:14 12:11:09,020 | D | root | web\project\updateProject.py 158 put RSP	{'code': 4512, 'status': False, 'message': 'isActive is not valid.', 'result': []}
+| 2024:06:14 12:11:09,021 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 13.65ms
+| 2024:06:14 12:11:49,224 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:11:49,599 | I | root | ------
+| 2024:06:14 12:11:49,642 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:11:49,803 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:11:49,807 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:11:52,833 | I | STDOUT | ********************* <class 'bool'>
+| 2024:06:14 12:11:52,854 | D | root | web\project\updateProject.py 158 put RSP	{'code': 4512, 'status': False, 'message': 'isActive is not valid.', 'result': []}
+| 2024:06:14 12:11:52,856 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 24.13ms
+| 2024:06:14 12:12:39,843 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:12:40,190 | I | root | ------
+| 2024:06:14 12:12:40,230 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:12:40,393 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:12:40,397 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:12:44,849 | I | STDOUT | ********************* False
+| 2024:06:14 12:12:44,858 | D | root | web\project\updateProject.py 158 put RSP	{'code': 4512, 'status': False, 'message': 'isActive is not valid.', 'result': []}
+| 2024:06:14 12:12:44,859 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 11.23ms
+| 2024:06:14 12:13:03,426 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:13:03,773 | I | root | ------
+| 2024:06:14 12:13:03,813 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:13:03,987 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:13:03,991 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:13:24,272 | D | root | web\project\updateProject.py 158 put RSP	{'code': 4005, 'status': False, 'message': 'Expected request Type JSON.', 'result': []}
+| 2024:06:14 12:13:24,273 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 47.56ms
+| 2024:06:14 12:13:46,987 | I | STDOUT | ********************* True
+| 2024:06:14 12:13:46,989 | D | root | web\project\updateProject.py 158 put RSP	{'code': 4512, 'status': False, 'message': 'isDelivered is not valid.', 'result': []}
+| 2024:06:14 12:13:46,990 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 4.00ms
+| 2024:06:14 12:14:23,013 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:14:23,365 | I | root | ------
+| 2024:06:14 12:14:23,401 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:14:23,556 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:14:23,560 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:14:31,896 | I | STDOUT | ********************* False
+| 2024:06:14 12:14:31,933 | D | root | web\project\updateProject.py 158 put RSP	{'code': 4512, 'status': False, 'message': 'isActive is not valid.', 'result': []}
+| 2024:06:14 12:14:31,934 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 38.87ms
+| 2024:06:14 12:16:35,588 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:16:35,907 | I | root | ------
+| 2024:06:14 12:16:35,946 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:16:36,121 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:16:36,125 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:16:43,203 | D | root | web\project\updateProject.py 158 put RSP	{'code': 4512, 'status': False, 'message': 'isActive is not valid.', 'result': []}
+| 2024:06:14 12:16:43,203 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 14.52ms
+| 2024:06:14 12:16:52,660 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:16:53,011 | I | root | ------
+| 2024:06:14 12:16:53,053 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:16:53,231 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:16:53,235 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:16:58,272 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:16:58,618 | I | root | ------
+| 2024:06:14 12:16:58,652 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:16:58,800 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:16:58,803 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:17:00,281 | D | root | web\project\updateProject.py 158 put RSP	{'code': 4512, 'status': False, 'message': 'isActive is not valid.', 'result': []}
+| 2024:06:14 12:17:00,282 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 24.11ms
+| 2024:06:14 12:17:54,341 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:17:54,695 | I | root | ------
+| 2024:06:14 12:17:54,735 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:17:54,910 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:17:54,913 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:17:58,477 | D | pymongo.serverSelection | {"message": "Server selection started", "selector": "<function writable_server_selector at 0x000001F59D2C56C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666be79a22adb7dc416c2fc0, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "666be79a22adb7dc416c2fc0"}}
+| 2024:06:14 12:17:58,477 | D | pymongo.serverSelection | {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x000001F59D2C56C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666be79a22adb7dc416c2fc0, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "666be79a22adb7dc416c2fc0"}, "remainingTimeMS": 30}
+| 2024:06:14 12:17:58,481 | D | pymongo.serverSelection | {"message": "Server selection succeeded", "selector": "<function writable_server_selector at 0x000001F59D2C56C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666be79a22adb7dc416c2fc0, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Standalone, rtt: 0.0>]>", "clientId": {"$oid": "666be79a22adb7dc416c2fc0"}, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:17:58,501 | W | root | web\project\updateProject.py 149 put EXC	Exception: AttributeError. Argument: ("'_asyncio.Future' object has no attribute 'modified_count'",)
+| 2024:06:14 12:17:58,503 | D | root | web\project\updateProject.py 150 put EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py LINE: 130 TYPE: <class 'AttributeError'>
+| 2024:06:14 12:17:58,506 | D | root | web\project\updateProject.py 158 put RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 12:17:58,507 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 35.37ms
+| 2024:06:14 12:17:58,509 | D | pymongo.command | {"clientId": {"$oid": "666be79a22adb7dc416c2fc0"}, "message": "Command started", "command": "{\"update\": \"project\", \"ordered\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"9eicxBjSSUWPxpjdCMF9rQ==\", \"subType\": \"04\"}}}, \"$db\": \"OfficeDataBase\", \"updates\": [{\"q\": {\"_id\": {\"$oid\": \"6669312f37a1b0239c574937\"}}, \"u\": {\"$set\": {\"isDelivered\": true, \"deleveredOn\": 1718347678473574}}, \"multi\": true}]}", "commandName": "update", "databaseName": "OfficeDataBase", "requestId": 18467, "operationId": 18467, "driverConnectionId": 1, "serverConnectionId": 96, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:17:58,516 | D | pymongo.command | {"clientId": {"$oid": "666be79a22adb7dc416c2fc0"}, "message": "Command succeeded", "durationMS": 6.542, "reply": "{\"n\": 1, \"nModified\": 1, \"ok\": 1.0}", "commandName": "update", "databaseName": "OfficeDataBase", "requestId": 18467, "operationId": 18467, "driverConnectionId": 1, "serverConnectionId": 96, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:18:38,436 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:18:38,811 | I | root | ------
+| 2024:06:14 12:18:38,851 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:18:39,027 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:18:39,031 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:33:48,146 | D | pymongo.serverSelection | {"message": "Server selection started", "selector": "<function writable_server_selector at 0x00000260383056C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666be7c6d94e2783d875e40c, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "666be7c6d94e2783d875e40c"}}
+| 2024:06:14 12:33:48,149 | D | pymongo.serverSelection | {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x00000260383056C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666be7c6d94e2783d875e40c, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "666be7c6d94e2783d875e40c"}, "remainingTimeMS": 30}
+| 2024:06:14 12:33:48,151 | D | pymongo.serverSelection | {"message": "Server selection succeeded", "selector": "<function writable_server_selector at 0x00000260383056C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666be7c6d94e2783d875e40c, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Standalone, rtt: 0.0>]>", "clientId": {"$oid": "666be7c6d94e2783d875e40c"}, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:33:48,157 | D | pymongo.command | {"clientId": {"$oid": "666be7c6d94e2783d875e40c"}, "message": "Command started", "command": "{\"update\": \"project\", \"ordered\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"+L6dsA16Rw+OnOnxT+6Bbw==\", \"subType\": \"04\"}}}, \"$db\": \"OfficeDataBase\", \"updates\": [{\"q\": {\"_id\": {\"$oid\": \"6669312f37a1b0239c574937\"}}, \"u\": {\"$set\": {\"isDelivered\": true, \"deleveredOn\": 1718348628141071}}, \"multi\": true}]}", "commandName": "update", "databaseName": "OfficeDataBase", "requestId": 18467, "operationId": 18467, "driverConnectionId": 1, "serverConnectionId": 99, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:33:48,160 | D | pymongo.command | {"clientId": {"$oid": "666be7c6d94e2783d875e40c"}, "message": "Command succeeded", "durationMS": 3.0140000000000002, "reply": "{\"n\": 1, \"nModified\": 1, \"ok\": 1.0}", "commandName": "update", "databaseName": "OfficeDataBase", "requestId": 18467, "operationId": 18467, "driverConnectionId": 1, "serverConnectionId": 99, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:33:48,277 | W | root | web\project\updateProject.py 149 put EXC	Exception: AttributeError. Argument: ("'_asyncio.Future' object has no attribute 'count'",)
+| 2024:06:14 12:33:48,282 | D | root | web\project\updateProject.py 150 put EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py LINE: 130 TYPE: <class 'AttributeError'>
+| 2024:06:14 12:33:48,286 | D | root | web\project\updateProject.py 158 put RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 12:33:48,288 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 147.95ms
+| 2024:06:14 12:33:58,057 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:33:58,761 | I | root | ------
+| 2024:06:14 12:33:58,802 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:33:58,981 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:33:58,985 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:35:34,020 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:35:34,368 | I | root | ------
+| 2024:06:14 12:35:34,410 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:35:34,600 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:35:34,603 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:35:40,137 | D | pymongo.serverSelection | {"message": "Server selection started", "selector": "<function writable_server_selector at 0x00000108F81156C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666bebbe400c055abc6ae776, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "666bebbe400c055abc6ae776"}}
+| 2024:06:14 12:35:40,137 | D | pymongo.serverSelection | {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x00000108F81156C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666bebbe400c055abc6ae776, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "666bebbe400c055abc6ae776"}, "remainingTimeMS": 30}
+| 2024:06:14 12:35:40,140 | D | pymongo.serverSelection | {"message": "Server selection succeeded", "selector": "<function writable_server_selector at 0x00000108F81156C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666bebbe400c055abc6ae776, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Standalone, rtt: 0.0>]>", "clientId": {"$oid": "666bebbe400c055abc6ae776"}, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:35:40,153 | W | root | web\project\updateProject.py 154 put EXC	Exception: AttributeError. Argument: ("'_asyncio.Future' object has no attribute 'modified_count'",)
+| 2024:06:14 12:35:40,154 | D | root | web\project\updateProject.py 155 put EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py LINE: 134 TYPE: <class 'AttributeError'>
+| 2024:06:14 12:35:40,155 | D | root | web\project\updateProject.py 163 put RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 12:35:40,155 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 21.55ms
+| 2024:06:14 12:35:40,167 | D | pymongo.command | {"clientId": {"$oid": "666bebbe400c055abc6ae776"}, "message": "Command started", "command": "{\"update\": \"project\", \"ordered\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"42auSw5DR5GeThzs9m9bLw==\", \"subType\": \"04\"}}}, \"$db\": \"OfficeDataBase\", \"updates\": [{\"q\": {\"_id\": {\"$oid\": \"6669312f37a1b0239c574937\"}}, \"u\": {\"$set\": {\"isDelivered\": true, \"deleveredOn\": 1718348740135314}}, \"multi\": true}]}", "commandName": "update", "databaseName": "OfficeDataBase", "requestId": 18467, "operationId": 18467, "driverConnectionId": 1, "serverConnectionId": 101, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:35:40,170 | D | pymongo.command | {"clientId": {"$oid": "666bebbe400c055abc6ae776"}, "message": "Command succeeded", "durationMS": 2.097, "reply": "{\"n\": 1, \"nModified\": 1, \"ok\": 1.0}", "commandName": "update", "databaseName": "OfficeDataBase", "requestId": 18467, "operationId": 18467, "driverConnectionId": 1, "serverConnectionId": 101, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:37:13,644 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:37:13,989 | I | root | ------
+| 2024:06:14 12:37:14,028 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:37:14,231 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:37:14,236 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:37:44,190 | D | pymongo.serverSelection | {"message": "Server selection started", "selector": "<function writable_server_selector at 0x0000025368FF56C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666bec217592a2b34f94cf84, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "666bec217592a2b34f94cf84"}}
+| 2024:06:14 12:37:44,192 | D | pymongo.serverSelection | {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x0000025368FF56C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666bec217592a2b34f94cf84, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "666bec217592a2b34f94cf84"}, "remainingTimeMS": 30}
+| 2024:06:14 12:37:44,193 | D | pymongo.serverSelection | {"message": "Server selection succeeded", "selector": "<function writable_server_selector at 0x0000025368FF56C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666bec217592a2b34f94cf84, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Standalone, rtt: 0.0>]>", "clientId": {"$oid": "666bec217592a2b34f94cf84"}, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:37:44,198 | D | pymongo.command | {"clientId": {"$oid": "666bec217592a2b34f94cf84"}, "message": "Command started", "command": "{\"update\": \"project\", \"ordered\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"F8rHyhlVQmqug4ZLfiLWZQ==\", \"subType\": \"04\"}}}, \"$db\": \"OfficeDataBase\", \"updates\": [{\"q\": {\"_id\": {\"$oid\": \"6669312f37a1b0239c574937\"}}, \"u\": {\"$set\": {\"isDelivered\": true, \"deleveredOn\": 1718348864186335}}, \"multi\": true}]}", "commandName": "update", "databaseName": "OfficeDataBase", "requestId": 18467, "operationId": 18467, "driverConnectionId": 1, "serverConnectionId": 105, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:37:44,201 | D | pymongo.command | {"clientId": {"$oid": "666bec217592a2b34f94cf84"}, "message": "Command succeeded", "durationMS": 3.0140000000000002, "reply": "{\"n\": 1, \"nModified\": 1, \"ok\": 1.0}", "commandName": "update", "databaseName": "OfficeDataBase", "requestId": 18467, "operationId": 18467, "driverConnectionId": 1, "serverConnectionId": 105, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:37:44,248 | D | root | web\project\updateProject.py 163 put RSP	{'code': 2000, 'status': True, 'message': 'Project updated successfully.', 'result': []}
+| 2024:06:14 12:37:44,249 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 64.21ms
+| 2024:06:14 12:38:39,856 | D | root | web\project\updateProject.py 163 put RSP	{'code': 4512, 'status': False, 'message': 'isDelivered is not valid.', 'result': []}
+| 2024:06:14 12:38:39,857 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 5.52ms
+| 2024:06:14 12:39:27,764 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\project\updateProject.py modified; restarting server
+| 2024:06:14 12:39:28,106 | I | root | ------
+| 2024:06:14 12:39:28,139 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 12:39:28,301 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 12:39:28,306 | I | root | main.py 71 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 12:39:33,337 | D | pymongo.serverSelection | {"message": "Server selection started", "selector": "<function writable_server_selector at 0x0000020089CF56C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666beca849b828a75cb3b0ca, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "666beca849b828a75cb3b0ca"}}
+| 2024:06:14 12:39:33,338 | D | pymongo.serverSelection | {"message": "Waiting for suitable server to become available", "selector": "<function writable_server_selector at 0x0000020089CF56C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666beca849b828a75cb3b0ca, topology_type: Unknown, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Unknown, rtt: None>]>", "clientId": {"$oid": "666beca849b828a75cb3b0ca"}, "remainingTimeMS": 30}
+| 2024:06:14 12:39:33,339 | D | pymongo.serverSelection | {"message": "Server selection succeeded", "selector": "<function writable_server_selector at 0x0000020089CF56C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666beca849b828a75cb3b0ca, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Standalone, rtt: 0.0>]>", "clientId": {"$oid": "666beca849b828a75cb3b0ca"}, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:39:33,341 | D | pymongo.command | {"clientId": {"$oid": "666beca849b828a75cb3b0ca"}, "message": "Command started", "command": "{\"update\": \"project\", \"ordered\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"8E79B2q3Ru2SJprObJbihg==\", \"subType\": \"04\"}}}, \"$db\": \"OfficeDataBase\", \"updates\": [{\"q\": {\"_id\": {\"$oid\": \"6669312f37a1b0239c574937\"}}, \"u\": {\"$set\": {\"isActive\": true}}, \"multi\": true}]}", "commandName": "update", "databaseName": "OfficeDataBase", "requestId": 18467, "operationId": 18467, "driverConnectionId": 1, "serverConnectionId": 107, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:39:33,341 | D | pymongo.command | {"clientId": {"$oid": "666beca849b828a75cb3b0ca"}, "message": "Command succeeded", "durationMS": 0.0, "reply": "{\"n\": 1, \"nModified\": 1, \"ok\": 1.0}", "commandName": "update", "databaseName": "OfficeDataBase", "requestId": 18467, "operationId": 18467, "driverConnectionId": 1, "serverConnectionId": 107, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:39:33,355 | D | root | web\project\updateProject.py 163 put RSP	{'code': 2000, 'status': True, 'message': 'Project updated successfully.', 'result': []}
+| 2024:06:14 12:39:33,356 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 21.19ms
+| 2024:06:14 12:39:56,566 | D | pymongo.serverSelection | {"message": "Server selection started", "selector": "<function writable_server_selector at 0x0000020089CF56C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666beca849b828a75cb3b0ca, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Standalone, rtt: 0.0>]>", "clientId": {"$oid": "666beca849b828a75cb3b0ca"}}
+| 2024:06:14 12:39:56,567 | D | pymongo.serverSelection | {"message": "Server selection succeeded", "selector": "<function writable_server_selector at 0x0000020089CF56C0>", "operation": "update", "topologyDescription": "<TopologyDescription id: 666beca849b828a75cb3b0ca, topology_type: Single, servers: [<ServerDescription ('127.0.0.1', 27017) server_type: Standalone, rtt: 0.0>]>", "clientId": {"$oid": "666beca849b828a75cb3b0ca"}, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:39:56,568 | D | pymongo.command | {"clientId": {"$oid": "666beca849b828a75cb3b0ca"}, "message": "Command started", "command": "{\"update\": \"project\", \"ordered\": true, \"lsid\": {\"id\": {\"$binary\": {\"base64\": \"8E79B2q3Ru2SJprObJbihg==\", \"subType\": \"04\"}}}, \"$db\": \"OfficeDataBase\", \"updates\": [{\"q\": {\"_id\": {\"$oid\": \"6669312f37a1b0239c574937\"}}, \"u\": {\"$set\": {\"isDelivered\": true, \"deleveredOn\": 1718348996566537}}, \"multi\": true}]}", "commandName": "update", "databaseName": "OfficeDataBase", "requestId": 6334, "operationId": 6334, "driverConnectionId": 1, "serverConnectionId": 107, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:39:56,570 | D | pymongo.command | {"clientId": {"$oid": "666beca849b828a75cb3b0ca"}, "message": "Command succeeded", "durationMS": 1.987, "reply": "{\"n\": 1, \"nModified\": 1, \"ok\": 1.0}", "commandName": "update", "databaseName": "OfficeDataBase", "requestId": 6334, "operationId": 6334, "driverConnectionId": 1, "serverConnectionId": 107, "serverHost": "127.0.0.1", "serverPort": 27017}
+| 2024:06:14 12:39:56,573 | D | root | web\project\updateProject.py 163 put RSP	{'code': 2000, 'status': True, 'message': 'Project updated successfully.', 'result': []}
+| 2024:06:14 12:39:56,574 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 8.57ms

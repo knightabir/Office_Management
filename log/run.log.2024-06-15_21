@@ -1,0 +1,171 @@
+| 2024:06:15 20:59:12,876 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 20:59:13,259 | I | root | ------
+| 2024:06:15 20:59:13,295 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 20:59:13,472 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 20:59:13,476 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 20:59:19,039 | I | STDOUT | hello
+| 2024:06:15 20:59:19,063 | I | STDOUT | {'2024-06-11': {'date': '2024-06-11', 'in_time': '10:50 PM', 'out_time': '10:56 PM', 'is_absent': False}, '2024-06-10': {'date': '2024-06-10', 'in_time': None, 'out_time': None, 'is_absent': True}, '2024-06-12': {'date': '2024-06-12', 'in_time': '01:01 PM', 'out_time': None, 'is_absent': False}}
+| 2024:06:15 20:59:19,077 | D | root | web\attendance\count.py 140 get RSP	{'code': 2000, 'status': True, 'message': 'Data fetched successfully', 'result': [{'date': '2024-06-01', 'is_absent': False, 'holiday': True}, {'date': '2024-06-02', 'is_absent': False, 'holiday': True}, {'date': '2024-06-03', 'is_absent': True, 'holiday': False}, {'date': '2024-06-04', 'is_absent': True, 'holiday': False}, {'date': '2024-06-05', 'is_absent': True, 'holiday': False}, {'date': '2024-06-06', 'is_absent': True, 'holiday': False}, {'date': '2024-06-07', 'is_absent': True, 'holiday': False}, {'date': '2024-06-08', 'is_absent': False, 'holiday': True}, {'date': '2024-06-09', 'is_absent': False, 'holiday': True}, {'date': '2024-06-10', 'in_time': None, 'out_time': None, 'is_absent': True}, {'date': '2024-06-11', 'in_time': '10:50 PM', 'out_time': '10:56 PM', 'is_absent': False}, {'date': '2024-06-12', 'in_time': '01:01 PM', 'out_time': None, 'is_absent': False}, {'date': '2024-06-13', 'is_absent': True, 'holiday': False}, {'date': '2024-06-14', 'is_absent': True, 'holiday': False}, {'date': '2024-06-15', 'is_absent': False, 'holiday': True}, {'date': '2024-06-16', 'is_absent': False, 'holiday': True}, {'date': '2024-06-17', 'is_absent': True, 'holiday': False}, {'date': '2024-06-18', 'is_absent': True, 'holiday': False}, {'date': '2024-06-19', 'is_absent': True, 'holiday': False}, {'date': '2024-06-20', 'is_absent': True, 'holiday': False}, {'date': '2024-06-21', 'is_absent': True, 'holiday': False}, {'date': '2024-06-22', 'is_absent': False, 'holiday': True}, {'date': '2024-06-23', 'is_absent': False, 'holiday': True}, {'date': '2024-06-24', 'is_absent': True, 'holiday': False}, {'date': '2024-06-25', 'is_absent': True, 'holiday': False}, {'date': '2024-06-26', 'is_absent': True, 'holiday': False}, {'date': '2024-06-27', 'is_absent': True, 'holiday': False}, {'date': '2024-06-28', 'is_absent': True, 'holiday': False}, {'date': '2024-06-29', 'is_absent': False, 'holiday': True}, {'date': '2024-06-30', 'is_absent': False, 'holiday': True}]}
+| 2024:06:15 20:59:19,078 | I | tornado.access | 200 GET /test (::1) 38.95ms
+| 2024:06:15 21:42:36,773 | I | STDOUT | hello
+| 2024:06:15 21:42:36,776 | I | STDOUT | {'2024-06-11': {'date': '2024-06-11', 'in_time': '10:50 PM', 'out_time': '10:56 PM', 'is_absent': False}, '2024-06-10': {'date': '2024-06-10', 'in_time': None, 'out_time': None, 'is_absent': True}, '2024-06-12': {'date': '2024-06-12', 'in_time': '01:01 PM', 'out_time': None, 'is_absent': False}}
+| 2024:06:15 21:42:36,779 | D | root | web\attendance\count.py 140 get RSP	{'code': 2000, 'status': True, 'message': 'Data fetched successfully', 'result': [{'date': '2024-06-01', 'is_absent': False, 'holiday': True}, {'date': '2024-06-02', 'is_absent': False, 'holiday': True}, {'date': '2024-06-03', 'is_absent': True, 'holiday': False}, {'date': '2024-06-04', 'is_absent': True, 'holiday': False}, {'date': '2024-06-05', 'is_absent': True, 'holiday': False}, {'date': '2024-06-06', 'is_absent': True, 'holiday': False}, {'date': '2024-06-07', 'is_absent': True, 'holiday': False}, {'date': '2024-06-08', 'is_absent': False, 'holiday': True}, {'date': '2024-06-09', 'is_absent': False, 'holiday': True}, {'date': '2024-06-10', 'in_time': None, 'out_time': None, 'is_absent': True}, {'date': '2024-06-11', 'in_time': '10:50 PM', 'out_time': '10:56 PM', 'is_absent': False}, {'date': '2024-06-12', 'in_time': '01:01 PM', 'out_time': None, 'is_absent': False}, {'date': '2024-06-13', 'is_absent': True, 'holiday': False}, {'date': '2024-06-14', 'is_absent': True, 'holiday': False}, {'date': '2024-06-15', 'is_absent': False, 'holiday': True}, {'date': '2024-06-16', 'is_absent': False, 'holiday': True}, {'date': '2024-06-17', 'is_absent': True, 'holiday': False}, {'date': '2024-06-18', 'is_absent': True, 'holiday': False}, {'date': '2024-06-19', 'is_absent': True, 'holiday': False}, {'date': '2024-06-20', 'is_absent': True, 'holiday': False}, {'date': '2024-06-21', 'is_absent': True, 'holiday': False}, {'date': '2024-06-22', 'is_absent': False, 'holiday': True}, {'date': '2024-06-23', 'is_absent': False, 'holiday': True}, {'date': '2024-06-24', 'is_absent': True, 'holiday': False}, {'date': '2024-06-25', 'is_absent': True, 'holiday': False}, {'date': '2024-06-26', 'is_absent': True, 'holiday': False}, {'date': '2024-06-27', 'is_absent': True, 'holiday': False}, {'date': '2024-06-28', 'is_absent': True, 'holiday': False}, {'date': '2024-06-29', 'is_absent': False, 'holiday': True}, {'date': '2024-06-30', 'is_absent': False, 'holiday': True}]}
+| 2024:06:15 21:42:36,781 | I | tornado.access | 200 GET /test (::1) 8.15ms
+| 2024:06:15 21:42:55,977 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\main.py modified; restarting server
+| 2024:06:15 21:42:56,311 | I | root | ------
+| 2024:06:15 21:42:56,353 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 21:42:56,526 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 21:42:56,530 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 21:42:59,863 | W | tornado.access | 405 GET /test (::1) 9.48ms
+| 2024:06:15 21:43:26,478 | D | root | web\login.py 126 post RSP	{'code': 200, 'status': True, 'message': 'Login Successful.', 'result': {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY4MjU5ZWIyN2YwZTY4NjY2ZmEzYmEiLCJjb21wYW55SWQiOiI2NjY4MWE2M2VkNTVmMTA1MjQxM2Q4NWMiLCJ1c2VyUm9sZSI6ImJyYW5jaE1hbmFnZXIifQ.jWH6CX9L0am9vxdejg4gRcRuMmAzrUi9asxi1L2lgDI'}}
+| 2024:06:15 21:43:26,478 | I | tornado.access | 200 POST /v1/api/login (::1) 30.59ms
+| 2024:06:15 21:43:31,147 | D | root | web\company\getAllBranch.py 131 get RSP	{'code': 200, 'status': True, 'message': 'Branch List found.', 'result': []}
+| 2024:06:15 21:43:31,148 | I | tornado.access | 200 GET /v1/api/getbranch (::1) 6.00ms
+| 2024:06:15 21:43:51,134 | D | root | web\hr\getUser.py 212 get RSP	{'code': 2000, 'status': True, 'message': 'user found.', 'result': [{'_id': '66693f8b3c40c35b68165e36', 'companyName': 'Abir Private Company', 'branchName': 'New Branch 1', 'firstName': 'Project', 'lastname': 'Manager', 'email': 'projectmanger@gmail.com', 'phoone': '1234567890', 'Designation': 'PROJECTMANAGER'}]}
+| 2024:06:15 21:43:51,135 | I | tornado.access | 200 GET /v1/api/api/get/user (::1) 8.23ms
+| 2024:06:15 21:43:59,431 | D | root | web\branchManager\addEmployee.py 236 post RSP	{'code': 4323, 'status': False, 'message': 'Please Enter valid First Name.', 'result': []}
+| 2024:06:15 21:43:59,431 | I | tornado.access | 200 POST /v1/api/add/employee (::1) 4.89ms
+| 2024:06:15 21:44:06,221 | I | STDOUT | {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1, 'PROJECTMANAGER': 1}, 'deliveredProjects': 0, 'pendingProjects': 0, 'totalProjects': 0, 'branchManager': 1}
+| 2024:06:15 21:44:06,224 | D | root | web\branchManager\dashboard.py 273 get RSP	{'code': 4100, 'status': False, 'message': '', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1, 'PROJECTMANAGER': 1}, 'deliveredProjects': 0, 'pendingProjects': 0, 'totalProjects': 0, 'branchManager': 1}}
+| 2024:06:15 21:44:06,224 | I | tornado.access | 200 GET /v1/api/api/branch/dashboard (::1) 15.55ms
+| 2024:06:15 21:44:30,735 | D | root | web\company\companyDashboard.py 289 get RSP	{'code': 200, 'status': True, 'message': 'Company Details Found', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1}, 'deliveredProjects': 1, 'pendingProjects': 0, 'totalProjects': 1, 'branchManager': 1}}
+| 2024:06:15 21:44:30,736 | I | tornado.access | 200 GET /v1/api/company/dashboard (::1) 9.51ms
+| 2024:06:15 21:44:35,678 | I | STDOUT | {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1, 'PROJECTMANAGER': 1}, 'deliveredProjects': 0, 'pendingProjects': 0, 'totalProjects': 0, 'branchManager': 1}
+| 2024:06:15 21:44:35,681 | D | root | web\branchManager\dashboard.py 273 get RSP	{'code': 4100, 'status': False, 'message': '', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1, 'PROJECTMANAGER': 1}, 'deliveredProjects': 0, 'pendingProjects': 0, 'totalProjects': 0, 'branchManager': 1}}
+| 2024:06:15 21:44:35,682 | I | tornado.access | 200 GET /v1/api/api/branch/dashboard (::1) 11.50ms
+| 2024:06:15 21:45:02,064 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\branchManager\dashboard.py modified; restarting server
+| 2024:06:15 21:45:02,395 | I | root | ------
+| 2024:06:15 21:45:02,429 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 21:45:02,604 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 21:45:02,607 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 21:45:04,201 | D | root | web\branchManager\dashboard.py 276 get RSP	{'code': 200, 'status': True, 'message': 'Success', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'PROJECTMANAGER': 1, 'branchManager': 1}, 'deliveredProjects': 0, 'pendingProjects': 0, 'totalProjects': 0, 'branchManager': 1}}
+| 2024:06:15 21:45:04,201 | I | tornado.access | 200 GET /v1/api/api/branch/dashboard (::1) 50.71ms
+| 2024:06:15 21:45:19,559 | D | root | web\branchManager\addEmployee.py 236 post RSP	{'code': 4323, 'status': False, 'message': 'Please Enter valid First Name.', 'result': []}
+| 2024:06:15 21:45:19,560 | I | tornado.access | 200 POST /v1/api/add/employee (::1) 8.54ms
+| 2024:06:15 21:45:59,633 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\branchManager\addEmployee.py modified; restarting server
+| 2024:06:15 21:46:00,017 | I | root | ------
+| 2024:06:15 21:46:00,053 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 21:46:00,203 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 21:46:00,205 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 21:46:02,322 | D | root | web\branchManager\addEmployee.py 236 post RSP	{'code': 4323, 'status': False, 'message': 'Please Enter valid First Name.', 'result': []}
+| 2024:06:15 21:46:02,323 | I | tornado.access | 200 POST /v1/api/add/employee (::1) 47.21ms
+| 2024:06:15 21:46:19,228 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\branchManager\addEmployee.py modified; restarting server
+| 2024:06:15 21:46:19,546 | I | root | ------
+| 2024:06:15 21:46:19,586 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 21:46:19,765 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 21:46:19,768 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 21:46:21,883 | D | root | web\branchManager\addEmployee.py 236 post RSP	{'code': 4323, 'status': False, 'message': 'Please Enter valid First Name.', 'result': []}
+| 2024:06:15 21:46:21,883 | I | tornado.access | 200 POST /v1/api/add/employee (::1) 46.07ms
+| 2024:06:15 21:46:39,293 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\branchManager\addEmployee.py modified; restarting server
+| 2024:06:15 21:46:39,646 | I | root | ------
+| 2024:06:15 21:46:39,680 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 21:46:39,845 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 21:46:39,848 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 21:46:41,470 | D | root | web\branchManager\addEmployee.py 236 post RSP	{'code': 4587, 'status': False, 'message': 'email already registered.', 'result': []}
+| 2024:06:15 21:46:41,470 | I | tornado.access | 200 POST /v1/api/add/employee (::1) 29.17ms
+| 2024:06:15 21:46:51,362 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\branchManager\addEmployee.py modified; restarting server
+| 2024:06:15 21:46:51,688 | I | root | ------
+| 2024:06:15 21:46:51,722 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 21:46:51,882 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 21:46:51,885 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 21:46:53,055 | D | root | web\branchManager\addEmployee.py 236 post RSP	{'code': 4587, 'status': False, 'message': 'email already registered.', 'result': []}
+| 2024:06:15 21:46:53,056 | I | tornado.access | 200 POST /v1/api/add/employee (::1) 40.89ms
+| 2024:06:15 21:47:03,419 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\branchManager\addEmployee.py modified; restarting server
+| 2024:06:15 21:47:03,803 | I | root | ------
+| 2024:06:15 21:47:03,844 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 21:47:04,040 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 21:47:04,044 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 21:47:14,407 | D | root | web\company\getAllBranch.py 131 get RSP	{'code': 200, 'status': True, 'message': 'Branch List found.', 'result': []}
+| 2024:06:15 21:47:14,408 | I | tornado.access | 200 GET /v1/api/getbranch (::1) 33.23ms
+| 2024:06:15 21:47:40,580 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\company\getAllBranch.py modified; restarting server
+| 2024:06:15 21:47:40,920 | I | root | ------
+| 2024:06:15 21:47:40,952 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 21:47:41,096 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 21:47:41,099 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 21:47:42,180 | I | STDOUT | ****************** []
+| 2024:06:15 21:47:42,193 | D | root | web\company\getAllBranch.py 133 get RSP	{'code': 200, 'status': True, 'message': 'Branch List found.', 'result': []}
+| 2024:06:15 21:47:42,194 | I | tornado.access | 200 GET /v1/api/getbranch (::1) 24.09ms
+| 2024:06:15 21:47:59,134 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\company\getAllBranch.py modified; restarting server
+| 2024:06:15 21:47:59,491 | I | root | ------
+| 2024:06:15 21:47:59,531 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 21:47:59,721 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 21:47:59,726 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 21:48:00,902 | I | STDOUT | ****************** [{'branchName': 'New Branch 1', 'branchLocation': 'Kolkata', '_id': '66681d79a3c4ba4888ad4965'}]
+| 2024:06:15 21:48:00,913 | D | root | web\company\getAllBranch.py 133 get RSP	{'code': 200, 'status': True, 'message': 'Branch List found.', 'result': [{'branchName': 'New Branch 1', 'branchLocation': 'Kolkata', '_id': '66681d79a3c4ba4888ad4965'}]}
+| 2024:06:15 21:48:00,914 | I | tornado.access | 200 GET /v1/api/getbranch (::1) 36.12ms
+| 2024:06:15 21:48:09,255 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\company\getAllBranch.py modified; restarting server
+| 2024:06:15 21:48:09,569 | I | root | ------
+| 2024:06:15 21:48:09,602 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 21:48:09,751 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 21:48:09,753 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 21:48:11,652 | D | root | web\company\getAllBranch.py 132 get RSP	{'code': 200, 'status': True, 'message': 'Branch List found.', 'result': [{'branchName': 'New Branch 1', 'branchLocation': 'Kolkata', '_id': '66681d79a3c4ba4888ad4965'}]}
+| 2024:06:15 21:48:11,653 | I | tornado.access | 200 GET /v1/api/getbranch (::1) 52.76ms
+| 2024:06:15 21:48:37,095 | D | root | web\hr\getUser.py 212 get RSP	{'code': 2000, 'status': True, 'message': 'user found.', 'result': [{'_id': '66693f8b3c40c35b68165e36', 'companyName': 'Abir Private Company', 'branchName': 'New Branch 1', 'firstName': 'Project', 'lastname': 'Manager', 'email': 'projectmanger@gmail.com', 'phoone': '1234567890', 'Designation': 'PROJECTMANAGER'}]}
+| 2024:06:15 21:48:37,095 | I | tornado.access | 200 GET /v1/api/api/get/user (::1) 12.93ms
+| 2024:06:15 21:48:40,786 | D | root | web\branchManager\addEmployee.py 236 post RSP	{'code': 4587, 'status': False, 'message': 'email already registered.', 'result': []}
+| 2024:06:15 21:48:40,786 | I | tornado.access | 200 POST /v1/api/add/employee (::1) 7.02ms
+| 2024:06:15 21:48:46,324 | D | root | web\branchManager\dashboard.py 276 get RSP	{'code': 200, 'status': True, 'message': 'Success', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1, 'PROJECTMANAGER': 1}, 'deliveredProjects': 0, 'pendingProjects': 0, 'totalProjects': 0, 'branchManager': 1}}
+| 2024:06:15 21:48:46,325 | I | tornado.access | 200 GET /v1/api/api/branch/dashboard (::1) 16.18ms
+| 2024:06:15 21:48:50,669 | D | root | web\company\companyDashboard.py 289 get RSP	{'code': 200, 'status': True, 'message': 'Company Details Found', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1}, 'deliveredProjects': 1, 'pendingProjects': 0, 'totalProjects': 1, 'branchManager': 1}}
+| 2024:06:15 21:48:50,669 | I | tornado.access | 200 GET /v1/api/company/dashboard (::1) 11.18ms
+| 2024:06:15 21:49:02,404 | D | root | web\project\updateProject.py 163 put RSP	{'code': 2000, 'status': True, 'message': 'Project updated successfully.', 'result': []}
+| 2024:06:15 21:49:02,404 | I | tornado.access | 200 PUT /v1/api/update/project (::1) 4.98ms
+| 2024:06:15 21:49:10,731 | D | root | web\branchManager\dashboard.py 276 get RSP	{'code': 200, 'status': True, 'message': 'Success', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1, 'PROJECTMANAGER': 1}, 'deliveredProjects': 0, 'pendingProjects': 0, 'totalProjects': 0, 'branchManager': 1}}
+| 2024:06:15 21:49:10,733 | I | tornado.access | 200 GET /v1/api/api/branch/dashboard (::1) 18.21ms
+| 2024:06:15 21:49:45,990 | D | root | web\branchManager\dashboard.py 276 get RSP	{'code': 200, 'status': True, 'message': 'Success', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1, 'PROJECTMANAGER': 1}, 'deliveredProjects': 0, 'pendingProjects': 0, 'totalProjects': 0, 'branchManager': 1}}
+| 2024:06:15 21:49:45,990 | I | tornado.access | 200 GET /v1/api/api/branch/dashboard (::1) 9.52ms
+| 2024:06:15 21:49:51,010 | D | root | web\company\companyDashboard.py 289 get RSP	{'code': 200, 'status': True, 'message': 'Company Details Found', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1}, 'deliveredProjects': 1, 'pendingProjects': 0, 'totalProjects': 1, 'branchManager': 1}}
+| 2024:06:15 21:49:51,011 | I | tornado.access | 200 GET /v1/api/company/dashboard (::1) 11.52ms
+| 2024:06:15 21:50:20,372 | D | root | web\branchManager\dashboard.py 276 get RSP	{'code': 200, 'status': True, 'message': 'Success', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1, 'PROJECTMANAGER': 1}, 'deliveredProjects': 0, 'pendingProjects': 0, 'totalProjects': 0, 'branchManager': 1}}
+| 2024:06:15 21:50:20,373 | I | tornado.access | 200 GET /v1/api/api/branch/dashboard (::1) 12.36ms
+| 2024:06:15 21:50:45,524 | D | root | web\company\companyDashboard.py 289 get RSP	{'code': 200, 'status': True, 'message': 'Company Details Found', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1}, 'deliveredProjects': 1, 'pendingProjects': 0, 'totalProjects': 1, 'branchManager': 1}}
+| 2024:06:15 21:50:45,525 | I | tornado.access | 200 GET /v1/api/company/dashboard (::1) 10.15ms
+| 2024:06:15 21:53:07,794 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\branchManager\dashboard.py modified; restarting server
+| 2024:06:15 21:53:08,172 | I | root | ------
+| 2024:06:15 21:53:08,205 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 21:53:08,353 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 21:53:08,356 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 21:53:13,754 | D | root | web\branchManager\dashboard.py 155 get RSP	{'code': 200, 'status': True, 'message': 'Success', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1, 'PROJECTMANAGER': 1}, 'deliveredProjects': 0, 'pendingProjects': 0, 'totalProjects': 0, 'branchManager': 1}}
+| 2024:06:15 21:53:13,755 | I | tornado.access | 200 GET /v1/api/api/branch/dashboard (::1) 51.97ms
+| 2024:06:15 21:53:38,314 | D | root | web\login.py 126 post RSP	{'code': 200, 'status': True, 'message': 'Login Successful.', 'result': {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY4MjU5ZWIyN2YwZTY4NjY2ZmEzYmEiLCJjb21wYW55SWQiOiI2NjY4MWE2M2VkNTVmMTA1MjQxM2Q4NWMiLCJ1c2VyUm9sZSI6ImJyYW5jaE1hbmFnZXIifQ.jWH6CX9L0am9vxdejg4gRcRuMmAzrUi9asxi1L2lgDI'}}
+| 2024:06:15 21:53:38,315 | I | tornado.access | 200 POST /v1/api/login (::1) 8.02ms
+| 2024:06:15 21:53:49,264 | D | root | web\branchManager\dashboard.py 155 get RSP	{'code': 200, 'status': True, 'message': 'Success', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1, 'PROJECTMANAGER': 1}, 'deliveredProjects': 0, 'pendingProjects': 0, 'totalProjects': 0, 'branchManager': 1}}
+| 2024:06:15 21:53:49,265 | I | tornado.access | 200 GET /v1/api/api/branch/dashboard (::1) 11.52ms
+| 2024:06:15 21:54:19,396 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\branchManager\dashboard.py modified; restarting server
+| 2024:06:15 21:54:19,750 | I | root | ------
+| 2024:06:15 21:54:19,790 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 21:54:19,972 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 21:54:19,976 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 21:54:21,657 | D | root | web\branchManager\dashboard.py 155 get RSP	{'code': 200, 'status': True, 'message': 'Success', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1, 'PROJECTMANAGER': 1}, 'deliveredProjects': 1, 'pendingProjects': 0, 'totalProjects': 1, 'branchManager': 1}}
+| 2024:06:15 21:54:21,659 | I | tornado.access | 200 GET /v1/api/api/branch/dashboard (::1) 68.25ms
+| 2024:06:15 21:54:41,391 | D | root | web\company\companyDashboard.py 289 get RSP	{'code': 200, 'status': True, 'message': 'Company Details Found', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1}, 'deliveredProjects': 1, 'pendingProjects': 0, 'totalProjects': 1, 'branchManager': 1}}
+| 2024:06:15 21:54:41,392 | I | tornado.access | 200 GET /v1/api/company/dashboard (::1) 10.28ms
+| 2024:06:15 21:54:42,818 | D | root | web\company\companyDashboard.py 289 get RSP	{'code': 200, 'status': True, 'message': 'Company Details Found', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1}, 'deliveredProjects': 1, 'pendingProjects': 0, 'totalProjects': 1, 'branchManager': 1}}
+| 2024:06:15 21:54:42,819 | I | tornado.access | 200 GET /v1/api/company/dashboard (::1) 15.47ms
+| 2024:06:15 21:54:45,798 | D | root | web\branchManager\dashboard.py 155 get RSP	{'code': 200, 'status': True, 'message': 'Success', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1, 'PROJECTMANAGER': 1}, 'deliveredProjects': 1, 'pendingProjects': 0, 'totalProjects': 1, 'branchManager': 1}}
+| 2024:06:15 21:54:45,799 | I | tornado.access | 200 GET /v1/api/api/branch/dashboard (::1) 14.64ms
+| 2024:06:15 21:54:49,827 | D | root | web\company\companyDashboard.py 289 get RSP	{'code': 200, 'status': True, 'message': 'Company Details Found', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1}, 'deliveredProjects': 1, 'pendingProjects': 0, 'totalProjects': 1, 'branchManager': 1}}
+| 2024:06:15 21:54:49,828 | I | tornado.access | 200 GET /v1/api/company/dashboard (::1) 14.34ms
+| 2024:06:15 21:54:53,335 | D | root | web\branchManager\dashboard.py 155 get RSP	{'code': 200, 'status': True, 'message': 'Success', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1, 'PROJECTMANAGER': 1}, 'deliveredProjects': 1, 'pendingProjects': 0, 'totalProjects': 1, 'branchManager': 1}}
+| 2024:06:15 21:54:53,336 | I | tornado.access | 200 GET /v1/api/api/branch/dashboard (::1) 9.51ms
+| 2024:06:15 21:56:34,504 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\company\companyDashboard.py modified; restarting server
+| 2024:06:15 21:56:34,907 | I | root | ------
+| 2024:06:15 21:56:34,941 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 21:56:35,104 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 21:56:35,108 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 21:56:38,142 | D | root | web\company\companyDashboard.py 164 get RSP	{'code': 200, 'status': True, 'message': 'Company Details Found', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1}, 'deliveredProjects': 1, 'pendingProjects': 0, 'totalProjects': 1, 'branchManager': 1}}
+| 2024:06:15 21:56:38,142 | I | tornado.access | 200 GET /v1/api/company/dashboard (::1) 30.35ms
+| 2024:06:15 21:58:49,134 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\company\companyDashboard.py modified; restarting server
+| 2024:06:15 21:58:49,485 | I | root | ------
+| 2024:06:15 21:58:49,528 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 21:58:49,680 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 21:58:49,683 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 21:58:55,882 | D | root | web\company\companyDashboard.py 164 get RSP	{'code': 200, 'status': True, 'message': 'Company Details Found', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'PROJECTMANAGER': 1, 'branchManager': 1}, 'deliveredProjects': 1, 'pendingProjects': 0, 'totalProjects': 1, 'branchManager': 1}}
+| 2024:06:15 21:58:55,884 | I | tornado.access | 200 GET /v1/api/company/dashboard (::1) 70.63ms
+| 2024:06:15 21:59:27,548 | I | root | web\branchManager\payscale.py 231 get ROLE :	branchManager
+| 2024:06:15 21:59:27,552 | D | root | web\branchManager\payscale.py 295 get RSP	{'code': 2000, 'status': True, 'message': 'Payscale fetched successfully', 'result': [{'payGrade': 'P1', '_id': '666855065efb951ef451c4d5'}, {'payGrade': 'P3', '_id': '666852634e0927faceeb6adf'}, {'payGrade': 'P2', '_id': '666855145efb951ef451c4d6'}, {'payGrade': 'P4', '_id': '6668551f5efb951ef451c4d7'}, {'payGrade': 'P5', '_id': '6668552a5efb951ef451c4d8'}, {'payGrade': 'P6', '_id': '666855335efb951ef451c4d9'}]}
+| 2024:06:15 21:59:27,553 | I | tornado.access | 200 GET /v1/api/payscale (::1) 8.14ms
+| 2024:06:15 21:59:36,038 | D | root | web\branchManager\role.py 266 get RSP	{'code': 200, 'status': True, 'message': 'Role found successfully', 'result': [{'role': 'HR-2', '_id': '6668246fc43f23878e12216a'}, {'role': 'HR-3', '_id': '66682471c43f23878e12216b'}, {'role': 'PROJECTMANAGER', '_id': '66693920b44eb2133282d589'}, {'role': 'branchManager', '_id': '666824e2c43f23878e12216c'}, {'role': 'HR-1', '_id': '666821adc43f23878e122168'}]}
+| 2024:06:15 21:59:36,039 | I | tornado.access | 200 GET /v1/api/role (::1) 5.21ms
+| 2024:06:15 21:59:45,836 | D | root | web\branchManager\getUserByRole.py 162 get RSP	{'code': 200, 'status': True, 'message': 'Users Found.', 'result': [{'_id': '66693f8b3c40c35b68165e36', 'firstname': 'Project', 'lastName': 'Manager', 'email': 'projectmanger@gmail.com', 'phone': '1234567890'}]}
+| 2024:06:15 21:59:45,837 | I | tornado.access | 200 GET /v1/api/user/by/role (::1) 7.51ms
