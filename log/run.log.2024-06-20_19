@@ -1,0 +1,33 @@
+| 2024:06:20 18:42:04,814 | I | root | ------
+| 2024:06:20 18:42:04,869 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 18:42:05,140 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 18:42:05,148 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 18:42:43,072 | D | root | web\branchManager\getUserByRole.py 162 get RSP	{'code': 200, 'status': True, 'message': 'Users Found.', 'result': [{'_id': '66693f8b3c40c35b68165e36', 'firstname': 'Project', 'lastName': 'Manager', 'email': 'projectmanger@gmail.com', 'phone': '1234567890'}]}
+| 2024:06:20 18:42:43,073 | I | tornado.access | 200 GET /v1/api/user/by/role (::1) 131.24ms
+| 2024:06:20 19:06:12,393 | D | root | web\branchManager\getUserByRole.py 162 get RSP	{'code': 200, 'status': True, 'message': 'Users Found.', 'result': [{'_id': '66693f8b3c40c35b68165e36', 'firstname': 'Project', 'lastName': 'Manager', 'email': 'projectmanger@gmail.com', 'phone': '1234567890'}]}
+| 2024:06:20 19:06:12,395 | I | tornado.access | 200 GET /v1/api/user/by/role (::1) 12.11ms
+| 2024:06:20 19:06:27,758 | D | root | web\branchManager\dashboard.py 186 get RSP	{'code': 200, 'status': True, 'message': 'Success', 'result': {'totalEmployees': 2, 'Role Wise Employee': {'branchManager': 1, 'PROJECTMANAGER': 1}, 'deliveredProjects': 1, 'pendingProjects': 0, 'totalProjects': 1, 'branchManager': 1}}
+| 2024:06:20 19:06:27,761 | I | tornado.access | 200 GET /v1/api/api/branch/dashboard (::1) 84.21ms
+| 2024:06:20 19:07:22,442 | I | root | web\branchManager\payscale.py 231 get ROLE :	branchManager
+| 2024:06:20 19:07:22,450 | D | root | web\branchManager\payscale.py 295 get RSP	{'code': 2000, 'status': True, 'message': 'Payscale fetched successfully', 'result': [{'payGrade': 'P3', '_id': '666852634e0927faceeb6adf'}, {'payGrade': 'P2', '_id': '666855145efb951ef451c4d6'}, {'payGrade': 'P1', '_id': '666855065efb951ef451c4d5'}, {'payGrade': 'P4', '_id': '6668551f5efb951ef451c4d7'}, {'payGrade': 'P6', '_id': '666855335efb951ef451c4d9'}, {'payGrade': 'P5', '_id': '6668552a5efb951ef451c4d8'}]}
+| 2024:06:20 19:07:22,452 | I | tornado.access | 200 GET /v1/api/payscale (::1) 17.17ms
+| 2024:06:20 19:07:56,249 | D | root | web\hr\userDetails.py 302 get RSP	{'code': 2000, 'status': True, 'message': 'Success', 'result': {'details': [{'_id': '6668259eb27f0e68666fa3ba', 'firstName': 'John', 'lastName': 'Doe', 'role': 'branchManager', 'lastWorkingDate': '2024-06-17', 'Reason': 'Demo Reason', 'ruleDetails': ['attendance']}], 'paymentDetails': {'initialSalary': 80000, 'lastSalary': 60000}, 'totalSalary': [{'payScaleGrade': 'P3', 'baseSalary': 80000, 'performanceBonus': 3000, 'annualBonus': 5000, 'isActive': False, 'time': 1718632652841944}, {'payScaleGrade': 'P1', 'baseSalary': 50000, 'performanceBonus': 2000, 'annualBonus': 3000, 'isActive': False, 'time': 1718639720945567}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': False, 'time': 1718723771388780}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': False, 'time': 1718862228884209}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': True, 'time': 1718862297098828}]}}
+| 2024:06:20 19:07:56,251 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 49.98ms
+| 2024:06:20 19:40:24,243 | E | STDERR | Traceback (most recent call last):
+| 2024:06:20 19:40:24,244 | E | STDERR |   File "C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\main.py", line 95, in <module>
+| 2024:06:20 19:40:24,247 | E | STDERR |     tornado.ioloop.IOLoop.current().start()
+| 2024:06:20 19:40:24,249 | E | STDERR |   File "C:\Users\asabi\OneDrive\Desktop\officeManagement\xenv\Lib\site-packages\tornado\platform\asyncio.py", line 205, in start
+| 2024:06:20 19:40:24,251 | E | STDERR |     self.asyncio_loop.run_forever()
+| 2024:06:20 19:40:24,251 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+| 2024:06:20 19:40:24,254 | E | STDERR |     super().run_forever()
+| 2024:06:20 19:40:24,254 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+| 2024:06:20 19:40:24,256 | E | STDERR |     self._run_once()
+| 2024:06:20 19:40:24,257 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1884, in _run_once
+| 2024:06:20 19:40:24,258 | E | STDERR |     event_list = self._selector.select(timeout)
+| 2024:06:20 19:40:24,259 | E | STDERR |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| 2024:06:20 19:40:24,259 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 444, in select
+| 2024:06:20 19:40:24,260 | E | STDERR |     self._poll(timeout)
+| 2024:06:20 19:40:24,261 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 817, in _poll
+| 2024:06:20 19:40:24,262 | E | STDERR |     status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+| 2024:06:20 19:40:24,263 | E | STDERR |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| 2024:06:20 19:40:24,264 | E | STDERR | KeyboardInterrupt

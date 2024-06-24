@@ -1,0 +1,46 @@
+| 2024:06:14 15:35:41,884 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\branchManager\dashboard.py modified; restarting server
+| 2024:06:14 15:35:42,335 | I | root | ------
+| 2024:06:14 15:35:42,369 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 15:35:42,536 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 15:35:42,541 | I | root | main.py 73 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:01:21,047 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\main.py modified; restarting server
+| 2024:06:14 16:01:21,450 | I | root | ------
+| 2024:06:14 16:01:21,498 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:01:21,670 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:01:21,674 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:02:01,432 | I | root | web\branchManager\getUserByRole.py 129 get 	
+| 2024:06:14 16:02:01,436 | D | root | web\branchManager\getUserByRole.py 151 get RSP	{'code': 5021, 'status': False, 'message': 'Internal Error Please Contact the admin.', 'result': []}
+| 2024:06:14 16:02:01,439 | I | tornado.access | 200 GET /v1/api/user/by/role (::1) 90.96ms
+| 2024:06:14 16:04:54,704 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\branchManager\getUserByRole.py modified; restarting server
+| 2024:06:14 16:04:55,155 | I | root | ------
+| 2024:06:14 16:04:55,201 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:04:55,364 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:04:55,367 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:04:59,285 | I | root | web\branchManager\getUserByRole.py 65 get 	
+| 2024:06:14 16:04:59,285 | D | root | web\branchManager\getUserByRole.py 157 get RSP	{'code': 5021, 'status': False, 'message': 'Internal Error Please Contact the admin.', 'result': []}
+| 2024:06:14 16:04:59,287 | I | tornado.access | 200 GET /v1/api/user/by/role (::1) 13.33ms
+| 2024:06:14 16:09:54,901 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\branchManager\getUserByRole.py modified; restarting server
+| 2024:06:14 16:09:55,369 | I | root | ------
+| 2024:06:14 16:09:55,409 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:09:55,581 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:09:55,585 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:13:34,114 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\branchManager\getUserByRole.py modified; restarting server
+| 2024:06:14 16:13:34,425 | I | root | ------
+| 2024:06:14 16:13:34,465 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:13:34,639 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:13:34,643 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:13:42,209 | D | root | web\branchManager\getUserByRole.py 155 get RSP	{'code': 4001, 'status': False, 'message': 'Invalid - [ Authorization ]', 'result': []}
+| 2024:06:14 16:13:42,210 | I | tornado.access | 200 GET /v1/api/user/by/role (::1) 39.70ms
+| 2024:06:14 16:15:00,174 | W | root | web\branchManager\getUserByRole.py 146 get EXC	Internal Error, Please Contact the Support Team.
+| 2024:06:14 16:15:00,180 | D | root | web\branchManager\getUserByRole.py 147 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\branchManager\getUserByRole.py LINE: 64 TYPE: <class 'json.decoder.JSONDecodeError'>
+| 2024:06:14 16:15:00,184 | D | root | web\branchManager\getUserByRole.py 155 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:14 16:15:00,186 | I | tornado.access | 200 GET /v1/api/user/by/role (::1) 15.67ms
+| 2024:06:14 16:16:10,184 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\branchManager\getUserByRole.py modified; restarting server
+| 2024:06:14 16:16:10,519 | I | root | ------
+| 2024:06:14 16:16:10,552 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 16:16:10,699 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 16:16:10,702 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 16:16:14,652 | D | root | web\branchManager\getUserByRole.py 162 get RSP	{'code': 4100, 'status': False, 'message': 'Expected Request Type JSON.', 'result': []}
+| 2024:06:14 16:16:14,653 | I | tornado.access | 200 GET /v1/api/user/by/role (::1) 12.57ms
+| 2024:06:14 16:17:10,152 | D | root | web\branchManager\getUserByRole.py 162 get RSP	{'code': 200, 'status': True, 'message': 'Users Found.', 'result': [{'_id': '66693f8b3c40c35b68165e36', 'firstname': 'Project', 'lastName': 'Manager', 'email': 'projectmanger@gmail.com', 'phone': '1234567890'}]}
+| 2024:06:14 16:17:10,153 | I | tornado.access | 200 GET /v1/api/user/by/role (::1) 24.83ms

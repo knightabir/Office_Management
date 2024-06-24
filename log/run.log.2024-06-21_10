@@ -1,0 +1,128 @@
+| 2024:06:21 10:27:12,215 | I | root | ------
+| 2024:06:21 10:27:12,301 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:27:12,687 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:27:12,697 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:28:08,261 | D | root | web\hr\userDetails.py 302 get RSP	{'code': 2000, 'status': True, 'message': 'Success', 'result': {'details': [{'_id': '6668259eb27f0e68666fa3ba', 'firstName': 'John', 'lastName': 'Doe', 'role': 'branchManager', 'lastWorkingDate': '2024-06-17', 'Reason': 'Demo Reason', 'ruleDetails': ['attendance']}], 'paymentDetails': {'initialSalary': 80000, 'lastSalary': 60000}, 'totalSalary': [{'payScaleGrade': 'P3', 'baseSalary': 80000, 'performanceBonus': 3000, 'annualBonus': 5000, 'isActive': False, 'time': 1718632652841944}, {'payScaleGrade': 'P1', 'baseSalary': 50000, 'performanceBonus': 2000, 'annualBonus': 3000, 'isActive': False, 'time': 1718639720945567}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': False, 'time': 1718723771388780}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': False, 'time': 1718862228884209}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': True, 'time': 1718862297098828}]}}
+| 2024:06:21 10:28:08,264 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 124.66ms
+| 2024:06:21 10:36:44,224 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\onBoarding.py modified; restarting server
+| 2024:06:21 10:36:44,591 | I | root | ------
+| 2024:06:21 10:36:44,631 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:36:44,824 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:36:44,828 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:38:50,862 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\onBoarding.py modified; restarting server
+| 2024:06:21 10:38:51,217 | I | root | ------
+| 2024:06:21 10:38:51,258 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:38:51,472 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:38:51,477 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:39:42,084 | D | root | web\branchManager\role.py 266 get RSP	{'code': 200, 'status': True, 'message': 'Role found successfully', 'result': [{'role': 'HR-1', '_id': '666821adc43f23878e122168'}, {'role': 'HR-3', '_id': '66682471c43f23878e12216b'}, {'role': 'branchManager', '_id': '666824e2c43f23878e12216c'}, {'role': 'HR', '_id': '66703e2596d999bd01e7f43d'}, {'role': 'HR-2', '_id': '6668246fc43f23878e12216a'}, {'role': 'PROJECTMANAGER', '_id': '66693920b44eb2133282d589'}, {'role': 'SDE', '_id': '6673f809919e601ee9286f65'}]}
+| 2024:06:21 10:39:42,086 | I | tornado.access | 200 GET /v1/api/role (::1) 72.28ms
+| 2024:06:21 10:39:59,620 | D | root | web\hr\rule.py 269 get RSP	{'code': 2000, 'status': True, 'message': 'Rule fetched successfully.', 'result': [{'name': 'attendance', '_id': '6670490ea22aaf5fff9e1e9a'}, {'name': 'Payroll', '_id': '66704a4ead2f2c4feb011eab'}]}
+| 2024:06:21 10:39:59,622 | I | tornado.access | 200 GET /v1/api/rule (::1) 10.02ms
+| 2024:06:21 10:40:21,660 | D | root | web\hr\getUser.py 212 get RSP	{'code': 2000, 'status': True, 'message': 'user found.', 'result': [{'_id': '66693f8b3c40c35b68165e36', 'companyName': 'Abir Private Company', 'branchName': 'New Branch 1', 'firstName': 'Project', 'lastname': 'Manager', 'email': 'projectmanger@gmail.com', 'phoone': '1234567890', 'Designation': 'PROJECTMANAGER'}]}
+| 2024:06:21 10:40:21,661 | I | tornado.access | 200 GET /v1/api/api/get/user (::1) 11.97ms
+| 2024:06:21 10:42:00,225 | I | root | web\hr\onBoarding.py 280 put 	
+| 2024:06:21 10:42:00,230 | D | root | web\hr\onBoarding.py 350 put RSP	{'code': 4001, 'status': False, 'message': 'Invalid - [ Authorization ]', 'result': []}
+| 2024:06:21 10:42:00,230 | I | tornado.access | 200 PUT /v1/api/onboard (::1) 8.89ms
+| 2024:06:21 10:42:09,544 | W | root | web\hr\onBoarding.py 341 put EXC	Exception: TypeError. Argument: ("'async for' requires an object with __aiter__ method, got dict",)
+| 2024:06:21 10:42:09,551 | D | root | web\hr\onBoarding.py 342 put EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\onBoarding.py LINE: 299 TYPE: <class 'TypeError'>
+| 2024:06:21 10:42:09,557 | D | root | web\hr\onBoarding.py 350 put RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:21 10:42:09,558 | I | tornado.access | 200 PUT /v1/api/onboard (::1) 20.26ms
+| 2024:06:21 10:42:32,516 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\onBoarding.py modified; restarting server
+| 2024:06:21 10:42:32,919 | I | root | ------
+| 2024:06:21 10:42:32,953 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:42:33,135 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:42:33,138 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:42:37,200 | W | root | web\hr\onBoarding.py 341 put EXC	Exception: AttributeError. Argument: ("'str' object has no attribute 'get'",)
+| 2024:06:21 10:42:37,202 | D | root | web\hr\onBoarding.py 342 put EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\onBoarding.py LINE: 308 TYPE: <class 'AttributeError'>
+| 2024:06:21 10:42:37,204 | D | root | web\hr\onBoarding.py 350 put RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:21 10:42:37,205 | I | tornado.access | 200 PUT /v1/api/onboard (::1) 51.70ms
+| 2024:06:21 10:43:03,671 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\onBoarding.py modified; restarting server
+| 2024:06:21 10:43:04,053 | I | root | ------
+| 2024:06:21 10:43:04,089 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:43:04,286 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:43:04,290 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:43:05,261 | W | root | web\hr\onBoarding.py 341 put EXC	Exception: TypeError. Argument: ("string indices must be integers, not 'str'",)
+| 2024:06:21 10:43:05,263 | D | root | web\hr\onBoarding.py 342 put EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\onBoarding.py LINE: 308 TYPE: <class 'TypeError'>
+| 2024:06:21 10:43:05,264 | D | root | web\hr\onBoarding.py 350 put RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:21 10:43:05,265 | I | tornado.access | 200 PUT /v1/api/onboard (::1) 69.39ms
+| 2024:06:21 10:43:43,333 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\onBoarding.py modified; restarting server
+| 2024:06:21 10:43:43,708 | I | root | ------
+| 2024:06:21 10:43:43,749 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:43:43,953 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:43:43,957 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:43:45,135 | I | STDOUT | ['_id', 'companyId', 'branchId', 'email', 'password', 'role', 'active', 'createdAt', 'createdBy', 'updatedAt', 'deletedAt', 'deleted', 'personalInfo']
+| 2024:06:21 10:43:45,149 | W | root | web\hr\onBoarding.py 341 put EXC	Exception: TypeError. Argument: ("string indices must be integers, not 'str'",)
+| 2024:06:21 10:43:45,150 | D | root | web\hr\onBoarding.py 342 put EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\onBoarding.py LINE: 308 TYPE: <class 'TypeError'>
+| 2024:06:21 10:43:45,152 | D | root | web\hr\onBoarding.py 350 put RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:21 10:43:45,153 | I | tornado.access | 200 PUT /v1/api/onboard (::1) 29.02ms
+| 2024:06:21 10:44:02,488 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\onBoarding.py modified; restarting server
+| 2024:06:21 10:44:02,868 | I | root | ------
+| 2024:06:21 10:44:02,909 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:44:03,144 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:44:03,150 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:44:03,876 | W | root | web\hr\onBoarding.py 341 put EXC	Exception: TypeError. Argument: ("object AsyncIOMotorCursor can't be used in 'await' expression",)
+| 2024:06:21 10:44:03,877 | D | root | web\hr\onBoarding.py 342 put EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\onBoarding.py LINE: 292 TYPE: <class 'TypeError'>
+| 2024:06:21 10:44:03,879 | D | root | web\hr\onBoarding.py 350 put RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:21 10:44:03,879 | I | tornado.access | 200 PUT /v1/api/onboard (::1) 16.12ms
+| 2024:06:21 10:44:21,178 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\onBoarding.py modified; restarting server
+| 2024:06:21 10:44:21,697 | I | root | ------
+| 2024:06:21 10:44:21,731 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:44:21,912 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:44:21,915 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:44:23,833 | I | STDOUT | [{'_id': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'johndoe@gmail.com', 'password': b'gAAAAABmaCWesE_wTW47idqKVDsO2YLuAhzfkXSAzZTejuoW5t1zUOnm6y-MAmnJ4M9B-3AGx0fuqiwj3PfzwQgShvcTbQ-k7A==', 'role': ObjectId('666824e2c43f23878e12216c'), 'active': True, 'createdAt': 1718101406408103, 'createdBy': ObjectId('6668259eb27f0e68666fa3b9'), 'updatedAt': None, 'deletedAt': None, 'deleted': False, 'personalInfo': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}}]
+| 2024:06:21 10:44:23,856 | D | root | web\hr\onBoarding.py 350 put RSP	{'code': 2000, 'status': True, 'message': 'OnBoarding Successful', 'result': []}
+| 2024:06:21 10:44:23,856 | I | tornado.access | 200 PUT /v1/api/onboard (::1) 58.05ms
+| 2024:06:21 10:46:15,399 | D | root | web\hr\onBoarding.py 232 post RSP	{'code': 4100, 'status': False, 'message': 'Expected Request Type JSON.', 'result': []}
+| 2024:06:21 10:46:15,400 | I | tornado.access | 200 POST /v1/api/onboard (::1) 4.01ms
+| 2024:06:21 10:46:29,952 | D | root | web\hr\onBoarding.py 232 post RSP	{'code': 4100, 'status': False, 'message': 'Expected Request Type JSON.', 'result': []}
+| 2024:06:21 10:46:29,953 | I | tornado.access | 200 POST /v1/api/onboard (::1) 3.90ms
+| 2024:06:21 10:48:15,951 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\onBoarding.py modified; restarting server
+| 2024:06:21 10:48:16,327 | I | root | ------
+| 2024:06:21 10:48:16,361 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:48:16,535 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:48:16,538 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:48:18,204 | I | STDOUT | b'{\n    "firstName": Felipa,\n    "lastName": Ziemann,\n    "email": Trudie76@yahoo.com,\n    "phone": 562-570-6480,\n    "address": 9495 Nikolaus River,\n    "message": Ut quis ipsum. Hic sit ratione id modi aut dolor modi. Assumenda in velit laborum explicabo mollitia doloremque dolorem. Doloremque autem amet unde quibusdam laboriosam commodi vero non. Saepe aut laudantium rerum quia temporibus qui voluptas aut ea. A maiores totam suscipit voluptas et aut.\n}'
+| 2024:06:21 10:48:18,217 | D | root | web\hr\onBoarding.py 233 post RSP	{'code': 4100, 'status': False, 'message': 'Expected Request Type JSON.', 'result': []}
+| 2024:06:21 10:48:18,218 | I | tornado.access | 200 POST /v1/api/onboard (::1) 15.00ms
+| 2024:06:21 10:49:03,565 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\onBoarding.py modified; restarting server
+| 2024:06:21 10:49:03,900 | I | root | ------
+| 2024:06:21 10:49:03,940 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:49:04,144 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:49:04,148 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:54:05,680 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\onBoarding.py modified; restarting server
+| 2024:06:21 10:54:06,069 | I | root | ------
+| 2024:06:21 10:54:06,111 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 10:54:06,321 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 10:54:06,324 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 10:54:31,397 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 4100, 'status': False, 'message': 'Expected Request Type JSON.', 'result': []}
+| 2024:06:21 10:54:31,398 | I | tornado.access | 200 POST /v1/api/onboard (::1) 40.46ms
+| 2024:06:21 10:55:09,879 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 4138, 'status': False, 'message': 'Please enter valid phone', 'result': []}
+| 2024:06:21 10:55:09,881 | I | tornado.access | 200 POST /v1/api/onboard (::1) 36.94ms
+| 2024:06:21 10:55:25,277 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 2000, 'status': True, 'message': 'OnBoarding Successful', 'result': []}
+| 2024:06:21 10:55:25,278 | I | tornado.access | 200 POST /v1/api/onboard (::1) 9.46ms
+| 2024:06:21 10:55:27,430 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 2000, 'status': True, 'message': 'OnBoarding Successful', 'result': []}
+| 2024:06:21 10:55:27,434 | I | tornado.access | 200 POST /v1/api/onboard (::1) 14.00ms
+| 2024:06:21 10:55:28,249 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 2000, 'status': True, 'message': 'OnBoarding Successful', 'result': []}
+| 2024:06:21 10:55:28,250 | I | tornado.access | 200 POST /v1/api/onboard (::1) 11.02ms
+| 2024:06:21 10:55:29,016 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 4100, 'status': False, 'message': 'Expected Request Type JSON.', 'result': []}
+| 2024:06:21 10:55:29,017 | I | tornado.access | 200 POST /v1/api/onboard (::1) 6.11ms
+| 2024:06:21 10:55:29,717 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 2000, 'status': True, 'message': 'OnBoarding Successful', 'result': []}
+| 2024:06:21 10:55:29,717 | I | tornado.access | 200 POST /v1/api/onboard (::1) 8.00ms
+| 2024:06:21 10:55:30,415 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 4100, 'status': False, 'message': 'Expected Request Type JSON.', 'result': []}
+| 2024:06:21 10:55:30,416 | I | tornado.access | 200 POST /v1/api/onboard (::1) 5.96ms
+| 2024:06:21 10:55:36,969 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 4100, 'status': False, 'message': 'Expected Request Type JSON.', 'result': []}
+| 2024:06:21 10:55:36,973 | I | tornado.access | 200 POST /v1/api/onboard (::1) 8.37ms
+| 2024:06:21 10:55:38,139 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 4100, 'status': False, 'message': 'Expected Request Type JSON.', 'result': []}
+| 2024:06:21 10:55:38,140 | I | tornado.access | 200 POST /v1/api/onboard (::1) 5.98ms
+| 2024:06:21 10:55:39,235 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 2000, 'status': True, 'message': 'OnBoarding Successful', 'result': []}
+| 2024:06:21 10:55:39,236 | I | tornado.access | 200 POST /v1/api/onboard (::1) 11.00ms
+| 2024:06:21 10:55:40,201 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 2000, 'status': True, 'message': 'OnBoarding Successful', 'result': []}
+| 2024:06:21 10:55:40,202 | I | tornado.access | 200 POST /v1/api/onboard (::1) 7.81ms
+| 2024:06:21 10:56:45,365 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 4100, 'status': False, 'message': 'Expected Request Type JSON.', 'result': []}
+| 2024:06:21 10:56:45,366 | I | tornado.access | 200 POST /v1/api/onboard (::1) 5.32ms
+| 2024:06:21 10:56:56,515 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 4100, 'status': False, 'message': 'Expected Request Type JSON.', 'result': []}
+| 2024:06:21 10:56:56,516 | I | tornado.access | 200 POST /v1/api/onboard (::1) 5.96ms
+| 2024:06:21 10:56:57,753 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 4100, 'status': False, 'message': 'Expected Request Type JSON.', 'result': []}
+| 2024:06:21 10:56:57,754 | I | tornado.access | 200 POST /v1/api/onboard (::1) 5.12ms
+| 2024:06:21 10:56:58,600 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 2000, 'status': True, 'message': 'OnBoarding Successful', 'result': []}
+| 2024:06:21 10:56:58,600 | I | tornado.access | 200 POST /v1/api/onboard (::1) 9.07ms

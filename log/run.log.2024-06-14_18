@@ -1,0 +1,21 @@
+| 2024:06:14 18:02:10,487 | D | root | web\branchManager\getUserByRole.py 162 get RSP	{'code': 200, 'status': True, 'message': 'Users Found.', 'result': [{'_id': '66693f8b3c40c35b68165e36', 'firstname': 'Project', 'lastName': 'Manager', 'email': 'projectmanger@gmail.com', 'phone': '1234567890'}]}
+| 2024:06:14 18:02:10,493 | I | tornado.access | 200 GET /v1/api/user/by/role (::1) 22.00ms
+| 2024:06:14 18:05:29,848 | I | STDOUT | {'_id': ObjectId('6668259eb27f0e68666fa3ba'), 'companyId': ObjectId('66681a63ed55f1052413d85c'), 'branchId': ObjectId('66681d79a3c4ba4888ad4965'), 'email': 'johndoe@gmail.com', 'password': b'gAAAAABmaCWesE_wTW47idqKVDsO2YLuAhzfkXSAzZTejuoW5t1zUOnm6y-MAmnJ4M9B-3AGx0fuqiwj3PfzwQgShvcTbQ-k7A==', 'role': ObjectId('666824e2c43f23878e12216c'), 'active': True, 'createdAt': 1718101406408103, 'createdBy': ObjectId('6668259eb27f0e68666fa3b9'), 'updatedAt': None, 'deletedAt': None, 'deleted': False, 'personalInfo': {'firstName': 'John', 'lastName': 'Doe', 'phone': '1234567890'}}
+| 2024:06:14 18:05:29,860 | D | root | web\login.py 128 post RSP	{'code': 200, 'status': True, 'message': 'Login Successful.', 'result': {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY4MjU5ZWIyN2YwZTY4NjY2ZmEzYmEiLCJjb21wYW55SWQiOiI2NjY4MWE2M2VkNTVmMTA1MjQxM2Q4NWMiLCJ1c2VyUm9sZSI6ImJyYW5jaE1hbmFnZXIifQ.jWH6CX9L0am9vxdejg4gRcRuMmAzrUi9asxi1L2lgDI'}}
+| 2024:06:14 18:05:29,861 | I | tornado.access | 200 POST /v1/api/login (::1) 40.77ms
+| 2024:06:14 18:05:59,226 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\login.py modified; restarting server
+| 2024:06:14 18:05:59,660 | I | root | ------
+| 2024:06:14 18:05:59,705 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:14 18:05:59,918 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:14 18:05:59,927 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:14 18:06:03,089 | D | root | web\login.py 126 post RSP	{'code': 200, 'status': True, 'message': 'Login Successful.', 'result': {'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NjY4MjU5ZWIyN2YwZTY4NjY2ZmEzYmEiLCJjb21wYW55SWQiOiI2NjY4MWE2M2VkNTVmMTA1MjQxM2Q4NWMiLCJ1c2VyUm9sZSI6ImJyYW5jaE1hbmFnZXIifQ.jWH6CX9L0am9vxdejg4gRcRuMmAzrUi9asxi1L2lgDI'}}
+| 2024:06:14 18:06:03,090 | I | tornado.access | 200 POST /v1/api/login (::1) 56.29ms
+| 2024:06:14 18:06:11,509 | D | root | web\hr\getUser.py 212 get RSP	{'code': 2000, 'status': True, 'message': 'user found.', 'result': [{'_id': '66693f8b3c40c35b68165e36', 'companyName': 'Abir Private Company', 'branchName': 'New Branch 1', 'firstName': 'Project', 'lastname': 'Manager', 'email': 'projectmanger@gmail.com', 'phoone': '1234567890', 'Designation': 'PROJECTMANAGER'}]}
+| 2024:06:14 18:06:11,510 | I | tornado.access | 200 GET /v1/api/api/get/user (::1) 9.21ms
+| 2024:06:14 18:06:20,161 | D | root | web\hr\getUser.py 212 get RSP	{'code': 2000, 'status': True, 'message': 'user found.', 'result': []}
+| 2024:06:14 18:06:20,162 | I | tornado.access | 200 GET /v1/api/api/get/user (::1) 7.54ms
+| 2024:06:14 18:06:24,494 | I | root | web\hr\getUser.py 108 get '66693f8b3c40c35b68165e3' is not a valid ObjectId, it must be a 12-byte input or a 24-character hex string	
+| 2024:06:14 18:06:24,497 | D | root | web\hr\getUser.py 212 get RSP	{'code': 4512, 'status': False, 'message': 'Internal Server Error. Please Contact the Support Team.', 'result': []}
+| 2024:06:14 18:06:24,497 | I | tornado.access | 200 GET /v1/api/api/get/user (::1) 5.10ms
+| 2024:06:14 18:06:29,590 | D | root | web\hr\getUser.py 212 get RSP	{'code': 2000, 'status': True, 'message': 'user found.', 'result': [{'_id': '66693f8b3c40c35b68165e36', 'companyName': 'Abir Private Company', 'branchName': 'New Branch 1', 'firstName': 'Project', 'lastname': 'Manager', 'email': 'projectmanger@gmail.com', 'phoone': '1234567890', 'Designation': 'PROJECTMANAGER'}]}
+| 2024:06:14 18:06:29,591 | I | tornado.access | 200 GET /v1/api/api/get/user (::1) 7.27ms

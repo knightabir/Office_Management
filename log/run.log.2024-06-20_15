@@ -1,0 +1,16 @@
+| 2024:06:20 15:03:44,303 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\project\addProject.py modified; restarting server
+| 2024:06:20 15:03:45,207 | I | root | ------
+| 2024:06:20 15:03:45,287 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:03:45,628 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:03:45,636 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:04:14,152 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\project\addProject.py modified; restarting server
+| 2024:06:20 15:04:14,634 | I | root | ------
+| 2024:06:20 15:04:14,700 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:20 15:04:14,980 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:20 15:04:14,985 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:20 15:04:51,508 | D | root | web\branchManager\role.py 266 get RSP	{'code': 200, 'status': True, 'message': 'Role found successfully', 'result': [{'role': 'branchManager', '_id': '666824e2c43f23878e12216c'}, {'role': 'PROJECTMANAGER', '_id': '66693920b44eb2133282d589'}, {'role': 'HR', '_id': '66703e2596d999bd01e7f43d'}, {'role': 'HR-1', '_id': '666821adc43f23878e122168'}, {'role': 'HR-3', '_id': '66682471c43f23878e12216b'}, {'role': 'HR-2', '_id': '6668246fc43f23878e12216a'}]}
+| 2024:06:20 15:04:51,510 | I | tornado.access | 200 GET /v1/api/role (::1) 73.79ms
+| 2024:06:20 15:06:09,280 | D | root | web\branchManager\role.py 132 post RSP	{'code': 2000, 'status': True, 'message': 'Role created successfully', 'result': []}
+| 2024:06:20 15:06:09,281 | I | tornado.access | 200 POST /v1/api/role (::1) 6.55ms
+| 2024:06:20 15:06:25,885 | D | root | web\branchManager\role.py 266 get RSP	{'code': 200, 'status': True, 'message': 'Role found successfully', 'result': [{'role': 'SDE', '_id': '6673f809919e601ee9286f65'}, {'role': 'HR-1', '_id': '666821adc43f23878e122168'}, {'role': 'HR-3', '_id': '66682471c43f23878e12216b'}, {'role': 'branchManager', '_id': '666824e2c43f23878e12216c'}, {'role': 'HR', '_id': '66703e2596d999bd01e7f43d'}, {'role': 'PROJECTMANAGER', '_id': '66693920b44eb2133282d589'}, {'role': 'HR-2', '_id': '6668246fc43f23878e12216a'}]}
+| 2024:06:20 15:06:25,886 | I | tornado.access | 200 GET /v1/api/role (::1) 6.61ms

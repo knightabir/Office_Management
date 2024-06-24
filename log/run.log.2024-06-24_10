@@ -1,0 +1,8 @@
+| 2024:06:24 10:13:36,968 | I | root | ------
+| 2024:06:24 10:13:37,058 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 10:13:37,406 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 10:13:37,416 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 10:13:47,602 | D | root | web\hr\getUser.py 212 get RSP	{'code': 2000, 'status': True, 'message': 'user found.', 'result': [{'_id': '66693f8b3c40c35b68165e36', 'companyName': 'Abir Private Company', 'branchName': 'New Branch 1', 'firstName': 'Project', 'lastname': 'Manager', 'email': 'projectmanger@gmail.com', 'phoone': '1234567890', 'Designation': 'PROJECTMANAGER'}]}
+| 2024:06:24 10:13:47,604 | I | tornado.access | 200 GET /v1/api/api/get/user (::1) 150.94ms
+| 2024:06:24 10:13:57,939 | D | root | web\hr\onBoarding.py 229 post RSP	{'code': 2000, 'status': True, 'message': 'OnBoarding Successful', 'result': []}
+| 2024:06:24 10:13:57,941 | I | tornado.access | 200 POST /v1/api/onboard (::1) 11.50ms

@@ -1,0 +1,2 @@
+| 2024:06:21 15:38:46,962 | D | root | web\hr\getUser.py 212 get RSP	{'code': 2000, 'status': True, 'message': 'user found.', 'result': [{'_id': '66693f8b3c40c35b68165e36', 'companyName': 'Abir Private Company', 'branchName': 'New Branch 1', 'firstName': 'Project', 'lastname': 'Manager', 'email': 'projectmanger@gmail.com', 'phoone': '1234567890', 'Designation': 'PROJECTMANAGER'}]}
+| 2024:06:21 15:38:46,965 | I | tornado.access | 200 GET /v1/api/api/get/user (::1) 37.12ms

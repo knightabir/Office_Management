@@ -1,0 +1,6 @@
+| 2024:06:17 10:37:02,822 | I | root | ------
+| 2024:06:17 10:37:02,860 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:17 10:37:03,025 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:17 10:37:03,029 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:17 10:38:24,141 | D | root | web\branchManager\getUserByRole.py 162 get RSP	{'code': 200, 'status': True, 'message': 'Users Found.', 'result': [{'_id': '66693f8b3c40c35b68165e36', 'firstname': 'Project', 'lastName': 'Manager', 'email': 'projectmanger@gmail.com', 'phone': '1234567890'}]}
+| 2024:06:17 10:38:24,142 | I | tornado.access | 200 GET /v1/api/user/by/role (::1) 95.30ms

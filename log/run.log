@@ -1,0 +1,189 @@
+| 2024:06:24 19:07:09,679 | D | root | web\hr\userDetails.py 302 get RSP	{'code': 2000, 'status': True, 'message': 'Success', 'result': {'details': [{'_id': '6668259eb27f0e68666fa3ba', 'firstName': 'John', 'lastName': 'Doe', 'role': 'branchManager', 'lastWorkingDate': '2024-06-17', 'Reason': 'Demo Reason', 'ruleDetails': ['attendance']}], 'paymentDetails': {'initialSalary': 80000, 'lastSalary': 60000}, 'totalSalary': [{'payScaleGrade': 'P3', 'baseSalary': 80000, 'performanceBonus': 3000, 'annualBonus': 5000, 'isActive': False, 'time': 1718632652841944}, {'payScaleGrade': 'P1', 'baseSalary': 50000, 'performanceBonus': 2000, 'annualBonus': 3000, 'isActive': False, 'time': 1718639720945567}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': False, 'time': 1718723771388780}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': False, 'time': 1718862228884209}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': True, 'time': 1718862297098828}]}}
+| 2024:06:24 19:07:09,686 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 31.91ms
+| 2024:06:24 19:19:45,938 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:19:46,518 | I | root | ------
+| 2024:06:24 19:19:46,592 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:19:46,918 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:19:46,924 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:19:54,467 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:19:54,816 | I | root | ------
+| 2024:06:24 19:19:54,857 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:19:55,039 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:19:55,042 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:19:58,348 | D | root | web\hr\userDetails.py 302 get RSP	{'code': 2000, 'status': True, 'message': 'Success', 'result': {'details': [{'_id': '6668259eb27f0e68666fa3ba', 'firstName': 'John', 'lastName': 'Doe', 'role': 'branchManager', 'lastWorkingDate': '2024-06-17', 'Reason': 'Demo Reason', 'ruleDetails': ['attendance']}], 'paymentDetails': [{'initialSalary': {'payScaleGrade': 'P3', 'baseSalary': 80000, 'performanceBonus': 3000, 'annualBonus': 5000, 'isActive': False, 'time': 1718632652841944}}, {'lastSalary': {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': True, 'time': 1718862297098828}}], 'totalSalary': [{'payScaleGrade': 'P3', 'baseSalary': 80000, 'performanceBonus': 3000, 'annualBonus': 5000, 'isActive': False, 'time': 1718632652841944}, {'payScaleGrade': 'P1', 'baseSalary': 50000, 'performanceBonus': 2000, 'annualBonus': 3000, 'isActive': False, 'time': 1718639720945567}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': False, 'time': 1718723771388780}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': False, 'time': 1718862228884209}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': True, 'time': 1718862297098828}]}}
+| 2024:06:24 19:19:58,349 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 82.18ms
+| 2024:06:24 19:23:13,066 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:23:13,408 | I | root | ------
+| 2024:06:24 19:23:13,448 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:23:13,653 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:23:13,659 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:23:20,505 | W | root | web\hr\userDetails.py 306 get EXC	Exception: AttributeError. Argument: ("'Int64' object has no attribute 'split'",)
+| 2024:06:24 19:23:20,506 | D | root | web\hr\userDetails.py 307 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py LINE: 270 TYPE: <class 'AttributeError'>
+| 2024:06:24 19:23:20,508 | D | root | web\hr\userDetails.py 315 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:24 19:23:20,508 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 50.53ms
+| 2024:06:24 19:24:04,702 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:24:05,031 | I | root | ------
+| 2024:06:24 19:24:05,063 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:24:05,233 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:24:05,236 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:24:06,158 | D | root | web\hr\userDetails.py 304 get RSP	{'code': 2000, 'status': True, 'message': 'Success', 'result': {'details': [{'_id': '6668259eb27f0e68666fa3ba', 'firstName': 'John', 'lastName': 'Doe', 'role': 'branchManager', 'lastWorkingDate': '2024-06-17', 'Reason': 'Demo Reason', 'ruleDetails': ['attendance']}], 'paymentDetails': [{'initialSalary': {'payScaleGrade': 'P3', 'baseSalary': 80000, 'performanceBonus': 3000, 'annualBonus': 5000, 'isActive': False, 'time': 1718632652841944}}, {'lastSalary': {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': True, 'time': 1718862297098828}}], 'totalSalary': [{'payScaleGrade': 'P3', 'baseSalary': 80000, 'performanceBonus': 3000, 'annualBonus': 5000, 'isActive': False, 'time': 1718632652841944}, {'payScaleGrade': 'P1', 'baseSalary': 50000, 'performanceBonus': 2000, 'annualBonus': 3000, 'isActive': False, 'time': 1718639720945567}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': False, 'time': 1718723771388780}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': False, 'time': 1718862228884209}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': True, 'time': 1718862297098828}]}}
+| 2024:06:24 19:24:06,159 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 23.60ms
+| 2024:06:24 19:26:10,269 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:26:10,640 | I | root | ------
+| 2024:06:24 19:26:10,674 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:26:10,842 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:26:10,846 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:26:18,656 | W | root | web\hr\userDetails.py 298 get EXC	Exception: AttributeError. Argument: ("'Int64' object has no attribute 'upper'",)
+| 2024:06:24 19:26:18,659 | D | root | web\hr\userDetails.py 299 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py LINE: 270 TYPE: <class 'AttributeError'>
+| 2024:06:24 19:26:18,662 | D | root | web\hr\userDetails.py 307 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:24 19:26:18,663 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 3563.48ms
+| 2024:06:24 19:27:15,388 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:27:15,721 | I | root | ------
+| 2024:06:24 19:27:15,761 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:27:15,957 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:27:15,961 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:27:18,164 | W | root | web\hr\userDetails.py 298 get EXC	Exception: TypeError. Argument: ("tStampToLocalTStamp() missing 1 required positional argument: 'isoCode'",)
+| 2024:06:24 19:27:18,166 | D | root | web\hr\userDetails.py 299 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py LINE: 270 TYPE: <class 'TypeError'>
+| 2024:06:24 19:27:18,167 | D | root | web\hr\userDetails.py 307 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:24 19:27:18,168 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 57.30ms
+| 2024:06:24 19:28:43,000 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:28:43,353 | I | root | ------
+| 2024:06:24 19:28:43,386 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:28:43,556 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:28:43,559 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:28:45,210 | W | root | web\hr\userDetails.py 298 get EXC	Exception: AttributeError. Argument: ("'int' object has no attribute 'upper'",)
+| 2024:06:24 19:28:45,212 | D | root | web\hr\userDetails.py 299 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py LINE: 270 TYPE: <class 'AttributeError'>
+| 2024:06:24 19:28:45,213 | D | root | web\hr\userDetails.py 307 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:24 19:28:45,214 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 120.91ms
+| 2024:06:24 19:29:02,594 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:29:02,950 | I | root | ------
+| 2024:06:24 19:29:02,987 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:29:03,148 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:29:03,152 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:29:06,099 | I | STDOUT | No timezones found for ISO 2-code: IND
+| 2024:06:24 19:29:06,099 | I | STDOUT | None
+| 2024:06:24 19:29:06,111 | D | root | web\hr\userDetails.py 307 get RSP	{'code': 2000, 'status': True, 'message': 'Success', 'result': {'details': [{'_id': '6668259eb27f0e68666fa3ba', 'firstName': 'John', 'lastName': 'Doe', 'role': 'branchManager', 'lastWorkingDate': '2024-06-17', 'Reason': 'Demo Reason', 'ruleDetails': ['attendance']}], 'paymentDetails': [{'initialSalary': {'payScaleGrade': 'P3', 'baseSalary': 80000, 'performanceBonus': 3000, 'annualBonus': 5000, 'isActive': False, 'time': 1718632652841944}}, {'lastSalary': {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': True, 'time': 1718862297098828}}], 'totalSalary': [{'payScaleGrade': 'P3', 'baseSalary': 80000, 'performanceBonus': 3000, 'annualBonus': 5000, 'isActive': False, 'time': 1718632652841944}, {'payScaleGrade': 'P1', 'baseSalary': 50000, 'performanceBonus': 2000, 'annualBonus': 3000, 'isActive': False, 'time': 1718639720945567}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': False, 'time': 1718723771388780}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': False, 'time': 1718862228884209}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': True, 'time': 1718862297098828}]}}
+| 2024:06:24 19:29:06,112 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 102.96ms
+| 2024:06:24 19:46:02,679 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:46:03,369 | I | root | ------
+| 2024:06:24 19:46:03,463 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:46:03,823 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:46:03,834 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:46:07,102 | I | STDOUT | No timezones found for ISO 2-code: IND
+| 2024:06:24 19:46:07,103 | I | STDOUT | None
+| 2024:06:24 19:46:07,114 | D | root | web\hr\userDetails.py 308 get RSP	{'code': 2000, 'status': True, 'message': 'Success', 'result': {'details': [{'_id': '6668259eb27f0e68666fa3ba', 'firstName': 'John', 'lastName': 'Doe', 'role': 'branchManager', 'lastWorkingDate': '2024-06-17', 'Reason': 'Demo Reason', 'ruleDetails': ['attendance']}], 'paymentDetails': [{'initialSalary': {'payScaleGrade': 'P3', 'baseSalary': 80000, 'performanceBonus': 3000, 'annualBonus': 5000, 'isActive': False, 'time': None}}, {'lastSalary': {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': True, 'time': 1718862297098828}}], 'totalSalary': [{'payScaleGrade': 'P3', 'baseSalary': 80000, 'performanceBonus': 3000, 'annualBonus': 5000, 'isActive': False, 'time': None}, {'payScaleGrade': 'P1', 'baseSalary': 50000, 'performanceBonus': 2000, 'annualBonus': 3000, 'isActive': False, 'time': 1718639720945567}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': False, 'time': 1718723771388780}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': False, 'time': 1718862228884209}, {'payScaleGrade': 'P2', 'baseSalary': 60000, 'performanceBonus': 2500, 'annualBonus': 4000, 'isActive': True, 'time': 1718862297098828}]}}
+| 2024:06:24 19:46:07,115 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 81.99ms
+| 2024:06:24 19:46:51,360 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:46:51,841 | I | root | ------
+| 2024:06:24 19:46:51,955 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:46:52,170 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:46:52,176 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:46:55,064 | I | STDOUT | No timezones found for ISO 2-code: IND
+| 2024:06:24 19:46:55,065 | I | STDOUT | None
+| 2024:06:24 19:46:55,065 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 56.89ms
+| 2024:06:24 19:48:17,206 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:48:17,543 | I | root | ------
+| 2024:06:24 19:48:17,584 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:48:17,791 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:48:17,798 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:48:19,501 | I | STDOUT | 1718632652841.944
+| 2024:06:24 19:48:19,501 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 27.53ms
+| 2024:06:24 19:49:25,813 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:49:26,371 | I | root | ------
+| 2024:06:24 19:49:26,461 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:49:26,890 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:49:26,896 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:49:30,811 | W | root | web\hr\userDetails.py 300 get EXC	Exception: AttributeError. Argument: ("'Int64' object has no attribute 'fromtimestamp'",)
+| 2024:06:24 19:49:30,812 | D | root | web\hr\userDetails.py 301 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py LINE: 271 TYPE: <class 'AttributeError'>
+| 2024:06:24 19:49:30,813 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 26.07ms
+| 2024:06:24 19:50:14,438 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:50:14,787 | I | root | ------
+| 2024:06:24 19:50:14,827 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:50:15,008 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:50:15,011 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:50:17,484 | W | root | web\hr\userDetails.py 301 get EXC	Exception: AttributeError. Argument: ("type object 'datetime.datetime' has no attribute 'datetime'",)
+| 2024:06:24 19:50:17,485 | D | root | web\hr\userDetails.py 302 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py LINE: 272 TYPE: <class 'AttributeError'>
+| 2024:06:24 19:50:17,486 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 56.39ms
+| 2024:06:24 19:53:59,051 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:53:59,431 | I | root | ------
+| 2024:06:24 19:53:59,471 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:53:59,626 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:53:59,628 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:54:02,830 | W | root | web\hr\userDetails.py 299 get EXC	Exception: OSError. Argument: (22, 'Invalid argument')
+| 2024:06:24 19:54:02,831 | D | root | web\hr\userDetails.py 300 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py LINE: 270 TYPE: <class 'OSError'>
+| 2024:06:24 19:54:02,832 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 50.28ms
+| 2024:06:24 19:54:52,169 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:54:52,519 | I | root | ------
+| 2024:06:24 19:54:52,559 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:54:52,765 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:54:52,768 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:54:57,939 | W | root | web\hr\userDetails.py 301 get EXC	Exception: OSError. Argument: (22, 'Invalid argument')
+| 2024:06:24 19:54:57,941 | D | root | web\hr\userDetails.py 302 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py LINE: 270 TYPE: <class 'OSError'>
+| 2024:06:24 19:54:57,941 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 40.95ms
+| 2024:06:24 19:58:46,295 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:58:46,658 | I | root | ------
+| 2024:06:24 19:58:46,699 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:58:46,896 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:58:46,901 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:58:58,440 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 19:58:58,819 | I | root | ------
+| 2024:06:24 19:58:58,860 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 19:58:59,062 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 19:58:59,065 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 19:59:07,905 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 16.02ms
+| 2024:06:24 20:00:27,087 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 20:00:27,532 | I | root | ------
+| 2024:06:24 20:00:27,572 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 20:00:27,792 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 20:00:27,797 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 20:00:33,904 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 44.06ms
+| 2024:06:24 20:01:35,829 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 20:01:36,154 | I | root | ------
+| 2024:06:24 20:01:36,194 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 20:01:36,385 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 20:01:36,388 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 20:01:42,630 | W | root | web\hr\userDetails.py 319 get EXC	Exception: TypeError. Argument: ('Object of type date is not JSON serializable',)
+| 2024:06:24 20:01:42,632 | D | root | web\hr\userDetails.py 320 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py LINE: 308 TYPE: <class 'TypeError'>
+| 2024:06:24 20:01:42,633 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 42.62ms
+| 2024:06:24 20:02:03,928 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 20:02:04,271 | I | root | ------
+| 2024:06:24 20:02:04,305 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 20:02:04,499 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 20:02:04,504 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 20:02:06,654 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 39.05ms
+| 2024:06:24 20:02:36,533 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 20:02:36,905 | I | root | ------
+| 2024:06:24 20:02:36,945 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 20:02:37,137 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 20:02:37,141 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 20:02:43,805 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 45.97ms
+| 2024:06:24 20:04:10,171 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 20:04:10,480 | I | root | ------
+| 2024:06:24 20:04:10,514 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 20:04:10,682 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 20:04:10,685 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 20:04:12,702 | W | root | web\hr\userDetails.py 299 get EXC	Exception: TypeError. Argument: ('list indices must be integers or slices, not dict',)
+| 2024:06:24 20:04:12,703 | D | root | web\hr\userDetails.py 300 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py LINE: 260 TYPE: <class 'TypeError'>
+| 2024:06:24 20:04:12,704 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 26.00ms
+| 2024:06:24 20:04:45,724 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 20:04:46,085 | I | root | ------
+| 2024:06:24 20:04:46,123 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 20:04:46,293 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 20:04:46,297 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 20:04:48,269 | W | root | web\hr\userDetails.py 299 get EXC	Exception: TypeError. Argument: ('list indices must be integers or slices, not dict',)
+| 2024:06:24 20:04:48,271 | D | root | web\hr\userDetails.py 300 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py LINE: 260 TYPE: <class 'TypeError'>
+| 2024:06:24 20:04:48,271 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 42.44ms
+| 2024:06:24 20:05:10,830 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 20:05:11,179 | I | root | ------
+| 2024:06:24 20:05:11,220 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 20:05:11,415 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 20:05:11,419 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 20:05:13,610 | W | root | web\hr\userDetails.py 300 get EXC	Exception: TypeError. Argument: ('list indices must be integers or slices, not dict',)
+| 2024:06:24 20:05:13,612 | D | root | web\hr\userDetails.py 301 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py LINE: 260 TYPE: <class 'TypeError'>
+| 2024:06:24 20:05:13,613 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 73.62ms
+| 2024:06:24 20:06:47,955 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\hr\userDetails.py modified; restarting server
+| 2024:06:24 20:06:48,311 | I | root | ------
+| 2024:06:24 20:06:48,354 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:24 20:06:48,555 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:24 20:06:48,559 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:24 20:06:55,177 | I | tornado.access | 200 GET /v1/api/resignation/user (::1) 49.67ms

@@ -1,0 +1,31 @@
+MONGO OfficeDataBase has been Initialized!
+Traceback (most recent call last):
+  File "C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\main.py", line 8, in <module>
+    from util.log_util import Log
+  File "C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\util\log_util.py", line 19, in <module>
+    file_handler = TimedRotatingFileHandler(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\logging\handlers.py", line 214, in __init__
+    BaseRotatingHandler.__init__(self, filename, 'a', encoding=encoding,
+  File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\logging\handlers.py", line 58, in __init__
+    logging.FileHandler.__init__(self, filename, mode=mode,
+  File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py", line 1181, in __init__
+    StreamHandler.__init__(self, self._open())
+                                 ^^^^^^^^^^^^
+  File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\logging\__init__.py", line 1213, in _open
+    return open_func(self.baseFilename, self.mode,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\asabi\\OneDrive\\Desktop\\officeManagement\\server_new\\log\\run.log'
+| 2024:06:21 14:34:26,576 | I | root | ------
+| 2024:06:21 14:34:26,654 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 14:34:26,959 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 14:34:26,965 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:21 14:34:35,148 | D | root | web\hr\getUser.py 212 get RSP	{'code': 2000, 'status': True, 'message': 'user found.', 'result': [{'_id': '66693f8b3c40c35b68165e36', 'companyName': 'Abir Private Company', 'branchName': 'New Branch 1', 'firstName': 'Project', 'lastname': 'Manager', 'email': 'projectmanger@gmail.com', 'phoone': '1234567890', 'Designation': 'PROJECTMANAGER'}]}
+| 2024:06:21 14:34:35,150 | I | tornado.access | 200 GET /v1/api/api/get/user (::1) 57.81ms
+| 2024:06:21 14:35:55,283 | D | root | web\hr\getUser.py 212 get RSP	{'code': 2000, 'status': True, 'message': 'user found.', 'result': [{'_id': '66693f8b3c40c35b68165e36', 'companyName': 'Abir Private Company', 'branchName': 'New Branch 1', 'firstName': 'Project', 'lastname': 'Manager', 'email': 'projectmanger@gmail.com', 'phoone': '1234567890', 'Designation': 'PROJECTMANAGER'}]}
+| 2024:06:21 14:35:55,284 | I | tornado.access | 200 GET /v1/api/api/get/user (::1) 14.61ms
+| 2024:06:21 14:36:28,479 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server_new\web\project\assignProject.py modified; restarting server
+| 2024:06:21 14:36:28,809 | I | root | ------
+| 2024:06:21 14:36:28,849 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:21 14:36:29,040 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:21 14:36:29,043 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]

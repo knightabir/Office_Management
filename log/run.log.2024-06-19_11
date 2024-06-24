@@ -1,0 +1,13 @@
+| 2024:06:19 11:10:24,998 | I | root | ------
+| 2024:06:19 11:10:25,076 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:19 11:10:25,448 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:19 11:10:25,458 | I | root | main.py 89 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:19 11:23:44,773 | D | root | web\hr\rule.py 269 get RSP	{'code': 2000, 'status': True, 'message': 'Rule fetched successfully.', 'result': [{'name': 'attendance', '_id': '6670490ea22aaf5fff9e1e9a'}, {'name': 'Payroll', '_id': '66704a4ead2f2c4feb011eab'}]}
+| 2024:06:19 11:23:44,775 | I | tornado.access | 200 GET /v1/api/rule (::1) 179.51ms
+| 2024:06:19 11:38:55,716 | D | root | web\hr\rule.py 269 get RSP	{'code': 2000, 'status': True, 'message': 'Rule fetched successfully.', 'result': [{'name': 'attendance', '_id': '6670490ea22aaf5fff9e1e9a'}, {'name': 'Payroll', '_id': '66704a4ead2f2c4feb011eab'}]}
+| 2024:06:19 11:38:55,719 | I | tornado.access | 200 GET /v1/api/rule (::1) 7.54ms
+| 2024:06:19 11:39:18,995 | I | root | web\branchManager\role.py 182 get 	
+| 2024:06:19 11:39:18,997 | D | root | web\branchManager\role.py 266 get RSP	{'code': 4001, 'status': False, 'message': 'Invalid - [ Authorization ]', 'result': []}
+| 2024:06:19 11:39:18,998 | I | tornado.access | 200 GET /v1/api/role (::1) 5.65ms
+| 2024:06:19 11:39:26,490 | D | root | web\branchManager\role.py 266 get RSP	{'code': 200, 'status': True, 'message': 'Role found successfully', 'result': [{'role': 'HR-1', '_id': '666821adc43f23878e122168'}, {'role': 'HR-3', '_id': '66682471c43f23878e12216b'}, {'role': 'HR-2', '_id': '6668246fc43f23878e12216a'}, {'role': 'branchManager', '_id': '666824e2c43f23878e12216c'}, {'role': 'PROJECTMANAGER', '_id': '66693920b44eb2133282d589'}, {'role': 'HR', '_id': '66703e2596d999bd01e7f43d'}]}
+| 2024:06:19 11:39:26,491 | I | tornado.access | 200 GET /v1/api/role (::1) 8.36ms

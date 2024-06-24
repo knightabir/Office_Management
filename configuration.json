@@ -1,0 +1,133 @@
+{
+    "name": "Base Project",
+    "server": "DEV",
+    "version": "0.00.01",
+    "projectCode": 5166,
+    "url": "https://base.xlayer.in",
+    "password": null,
+    "uploads": "./../uploads/",
+    "uploadsPath": "/uploads/",
+    "tmpUploadsPath": "tmp/",
+    "timeOffsetIST": 19800,
+    "instance": [
+      {
+        "api": "web",
+        "host": "127.0.0.1",
+        "port": 5166
+      }
+    ],
+    "database": [
+      {
+        "name": "MongoDB",
+        "code": 0,
+        "key": "OfficeDataBase",
+        "host": "127.0.0.1",
+        "port": 27017,
+        "table": [
+          {
+            "name": "account",
+            "code": 0
+          },
+          {
+            "name": "application",
+            "code": 1
+          },
+          {
+            "name": "profile",
+            "code": 2
+          },
+          {
+            "name": "oneTimePassword",
+            "code": 3
+          },
+          {
+            "name": "entity",
+            "code": 4
+          },
+          {
+            "name": "phoneCountry",
+            "code": 5
+          },
+          {
+            "name": "state",
+            "code": 6
+          },
+          {
+            "name": "countries",
+            "code": 7
+          },
+          {
+            "name": "signedSession",
+            "code": 8
+          },
+          {
+            "name": "element",
+            "code": 9
+          },
+          {
+            "name": "elementAccess",
+            "code": 10
+          },
+          {
+            "name": "grConversation",
+            "code": 11
+          },
+          {
+            "name":"user",
+            "code": 12
+          },
+          {
+            "name": "company",
+            "code": 13
+          },
+          {
+            "name": "branch",
+            "code": 14
+          },
+          {
+            "name": "role",
+            "code" : 15
+          },
+          {
+            "name": "onBoard",
+            "code": 16
+          },
+          {
+            "name": "payScale",
+            "code": 17
+          },
+          {
+            "name": "attendance",
+            "code": 18
+          },
+          {
+            "name": "project",
+            "code": 19
+          },
+          {
+            "name": "PayGrade",
+            "code": 20
+          },
+          {
+            "name": "rule",
+            "code": 21
+          },
+          {
+            "name": "user_role_map",
+            "code": 22
+          },
+          {
+            "name": "resignation",
+            "code": 23
+          }
+        ]
+      }
+    ],
+    "sms_gw": [
+      {
+        "name": "MSG91",
+        "code": 1,
+        "key": "190375A8pqgqS55cb1f0d8"
+      }
+    ]
+  }

@@ -1,0 +1,245 @@
+| 2024:06:15 14:36:03,334 | I | root | ------
+| 2024:06:15 14:36:03,398 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:36:03,605 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:36:03,610 | I | root | main.py 75 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:36:07,999 | D | root | web\hr\getUser.py 212 get RSP	{'code': 2000, 'status': True, 'message': 'user found.', 'result': [{'_id': '66693f8b3c40c35b68165e36', 'companyName': 'Abir Private Company', 'branchName': 'New Branch 1', 'firstName': 'Project', 'lastname': 'Manager', 'email': 'projectmanger@gmail.com', 'phoone': '1234567890', 'Designation': 'PROJECTMANAGER'}]}
+| 2024:06:15 14:36:08,000 | I | tornado.access | 200 GET /v1/api/api/get/user (::1) 88.36ms
+| 2024:06:15 14:39:34,625 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\main.py modified; restarting server
+| 2024:06:15 14:39:34,980 | I | root | ------
+| 2024:06:15 14:39:35,019 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:39:35,190 | E | STDERR | Traceback (most recent call last):
+| 2024:06:15 14:39:35,191 | E | STDERR |   File "C:\Users\asabi\OneDrive\Desktop\officeManagement\server\main.py", line 28, in <module>
+| 2024:06:15 14:39:35,191 | E | STDERR |     from web.attendance.count import CountHandler
+| 2024:06:15 14:39:35,191 | E | STDERR | ImportError: cannot import name 'CountHandler' from 'web.attendance.count' (C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py)
+| 2024:06:15 14:40:28,224 | I | root | ------
+| 2024:06:15 14:40:28,263 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:40:28,439 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:40:28,443 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:40:33,451 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\main.py modified; restarting server
+| 2024:06:15 14:40:33,795 | I | root | ------
+| 2024:06:15 14:40:33,841 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:40:34,019 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:40:34,022 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:44:29,552 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:44:29,893 | I | root | ------
+| 2024:06:15 14:44:29,933 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:44:30,107 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:44:30,110 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:44:56,638 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:44:56,976 | I | root | ------
+| 2024:06:15 14:44:57,012 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:44:57,157 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:44:57,160 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:45:21,800 | I | STDOUT | hello
+| 2024:06:15 14:45:21,828 | I | STDOUT | [{'date': '2024-06-11', 'in_time': '10:50 PM', 'out_time': '10:56 PM', 'is_absent': False}, {'date': '2024-06-10', 'in_time': None, 'out_time': None, 'is_absent': True}, {'date': '2024-06-12', 'in_time': '01:01 PM', 'out_time': None, 'is_absent': False}]
+| 2024:06:15 14:45:21,862 | D | root | web\attendance\count.py 102 get RSP	{'code': 4100, 'status': False, 'message': '', 'result': []}
+| 2024:06:15 14:45:21,863 | I | tornado.access | 200 GET /test (::1) 63.59ms
+| 2024:06:15 14:46:43,196 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:46:43,522 | I | root | ------
+| 2024:06:15 14:46:43,560 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:46:43,736 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:46:43,740 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:48:48,260 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:48:48,598 | I | root | ------
+| 2024:06:15 14:48:48,637 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:48:48,820 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:48:48,823 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:48:55,351 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:48:55,691 | I | root | ------
+| 2024:06:15 14:48:55,730 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:48:55,909 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:48:55,913 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:49:00,051 | I | STDOUT | hello
+| 2024:06:15 14:49:00,051 | I | STDOUT | First day of current month: 2024-06-01
+| 2024:06:15 14:49:00,051 | I | STDOUT | Last day of current month: 2024-06-30
+| 2024:06:15 14:49:00,078 | I | STDOUT | [{'date': '2024-06-11', 'in_time': '10:50 PM', 'out_time': '10:56 PM', 'is_absent': False}, {'date': '2024-06-10', 'in_time': None, 'out_time': None, 'is_absent': True}, {'date': '2024-06-12', 'in_time': '01:01 PM', 'out_time': None, 'is_absent': False}]
+| 2024:06:15 14:49:00,089 | D | root | web\attendance\count.py 121 get RSP	{'code': 4100, 'status': False, 'message': '', 'result': []}
+| 2024:06:15 14:49:00,089 | I | tornado.access | 200 GET /test (::1) 37.81ms
+| 2024:06:15 14:49:50,945 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:49:51,291 | I | root | ------
+| 2024:06:15 14:49:51,330 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:49:51,505 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:49:51,508 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:51:29,539 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:51:30,125 | I | root | ------
+| 2024:06:15 14:51:30,165 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:51:30,342 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:51:30,345 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:51:32,459 | I | STDOUT | hello
+| 2024:06:15 14:51:32,501 | W | root | web\attendance\count.py 106 get EXC	Exception: InvalidDocument. Argument: ("cannot encode object: datetime.date(2024, 6, 1), of type: <class 'datetime.date'>",)
+| 2024:06:15 14:51:32,502 | D | root | web\attendance\count.py 107 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py LINE: 90 TYPE: <class 'bson.errors.InvalidDocument'>
+| 2024:06:15 14:51:32,504 | D | root | web\attendance\count.py 115 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:15 14:51:32,504 | I | tornado.access | 200 GET /test (::1) 44.49ms
+| 2024:06:15 14:52:00,376 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:52:00,723 | I | root | ------
+| 2024:06:15 14:52:00,762 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:52:00,941 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:52:00,944 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:52:05,577 | I | STDOUT | hello
+| 2024:06:15 14:52:05,590 | W | root | web\attendance\count.py 106 get EXC	Exception: AttributeError. Argument: ("type object 'datetime.datetime' has no attribute 'timedelta'",)
+| 2024:06:15 14:52:05,591 | D | root | web\attendance\count.py 107 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py LINE: 64 TYPE: <class 'AttributeError'>
+| 2024:06:15 14:52:05,593 | D | root | web\attendance\count.py 115 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:15 14:52:05,594 | I | tornado.access | 200 GET /test (::1) 16.82ms
+| 2024:06:15 14:52:56,962 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:52:57,308 | I | root | ------
+| 2024:06:15 14:52:57,347 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:52:57,529 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:52:57,532 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:53:22,065 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:53:22,407 | I | root | ------
+| 2024:06:15 14:53:22,447 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:53:22,621 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:53:22,624 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:53:29,723 | I | STDOUT | hello
+| 2024:06:15 14:53:29,738 | W | root | web\attendance\count.py 106 get EXC	Exception: AttributeError. Argument: ("type object 'datetime.datetime' has no attribute 'timedelta'",)
+| 2024:06:15 14:53:29,740 | D | root | web\attendance\count.py 107 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py LINE: 64 TYPE: <class 'AttributeError'>
+| 2024:06:15 14:53:29,741 | D | root | web\attendance\count.py 115 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:15 14:53:29,742 | I | tornado.access | 200 GET /test (::1) 19.93ms
+| 2024:06:15 14:55:48,156 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:55:48,486 | I | root | ------
+| 2024:06:15 14:55:48,525 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:55:48,700 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:55:48,704 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:56:00,225 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:56:00,562 | I | root | ------
+| 2024:06:15 14:56:00,594 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:56:00,741 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:56:00,744 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:56:05,195 | I | STDOUT | hello
+| 2024:06:15 14:56:05,196 | I | STDOUT | 2024-06-01 30
+| 2024:06:15 14:56:05,218 | W | root | web\attendance\count.py 107 get EXC	Exception: InvalidDocument. Argument: ("cannot encode object: datetime.date(2024, 6, 1), of type: <class 'datetime.date'>",)
+| 2024:06:15 14:56:05,220 | D | root | web\attendance\count.py 108 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py LINE: 91 TYPE: <class 'bson.errors.InvalidDocument'>
+| 2024:06:15 14:56:05,221 | D | root | web\attendance\count.py 116 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:15 14:56:05,222 | I | tornado.access | 200 GET /test (::1) 27.60ms
+| 2024:06:15 14:56:32,776 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:56:33,123 | I | root | ------
+| 2024:06:15 14:56:33,162 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:56:33,345 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:56:33,348 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:56:37,331 | I | STDOUT | hello
+| 2024:06:15 14:56:37,332 | I | STDOUT | 2024-06-01 30
+| 2024:06:15 14:56:37,356 | I | STDOUT | [{'date': '2024-06-11', 'in_time': '10:50 PM', 'out_time': '10:56 PM', 'is_absent': False}, {'date': '2024-06-10', 'in_time': None, 'out_time': None, 'is_absent': True}, {'date': '2024-06-12', 'in_time': '01:01 PM', 'out_time': None, 'is_absent': False}]
+| 2024:06:15 14:56:37,368 | D | root | web\attendance\count.py 116 get RSP	{'code': 4100, 'status': False, 'message': '', 'result': []}
+| 2024:06:15 14:56:37,370 | I | tornado.access | 200 GET /test (::1) 38.68ms
+| 2024:06:15 14:57:22,371 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:57:22,687 | I | root | ------
+| 2024:06:15 14:57:22,739 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:57:22,929 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:57:22,932 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:57:25,334 | I | STDOUT | hello
+| 2024:06:15 14:57:25,350 | W | root | web\attendance\count.py 109 get EXC	Exception: AttributeError. Argument: ("'int' object has no attribute 'strftime'",)
+| 2024:06:15 14:57:25,352 | D | root | web\attendance\count.py 110 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py LINE: 67 TYPE: <class 'AttributeError'>
+| 2024:06:15 14:57:25,353 | D | root | web\attendance\count.py 118 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:15 14:57:25,354 | I | tornado.access | 200 GET /test (::1) 20.19ms
+| 2024:06:15 14:57:52,954 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:57:53,316 | I | root | ------
+| 2024:06:15 14:57:53,357 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:57:53,535 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:57:53,538 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:57:57,058 | I | STDOUT | hello
+| 2024:06:15 14:57:57,068 | W | root | web\attendance\count.py 109 get EXC	Exception: AttributeError. Argument: ("'str' object has no attribute 'strftime'",)
+| 2024:06:15 14:57:57,070 | D | root | web\attendance\count.py 110 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py LINE: 66 TYPE: <class 'AttributeError'>
+| 2024:06:15 14:57:57,071 | D | root | web\attendance\count.py 118 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:15 14:57:57,072 | I | tornado.access | 200 GET /test (::1) 14.47ms
+| 2024:06:15 14:58:09,566 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:58:09,924 | I | root | ------
+| 2024:06:15 14:58:09,966 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:58:10,146 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:58:10,150 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:58:21,670 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:58:22,006 | I | root | ------
+| 2024:06:15 14:58:22,049 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:58:22,227 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:58:22,230 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:58:24,068 | I | STDOUT | hello
+| 2024:06:15 14:58:24,079 | W | root | web\attendance\count.py 107 get EXC	Exception: AttributeError. Argument: ("'int' object has no attribute 'strftime'",)
+| 2024:06:15 14:58:24,080 | D | root | web\attendance\count.py 108 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py LINE: 65 TYPE: <class 'AttributeError'>
+| 2024:06:15 14:58:24,081 | D | root | web\attendance\count.py 116 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:15 14:58:24,081 | I | tornado.access | 200 GET /test (::1) 13.05ms
+| 2024:06:15 14:58:48,761 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:58:49,101 | I | root | ------
+| 2024:06:15 14:58:49,137 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:58:49,286 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:58:49,288 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:58:50,952 | I | STDOUT | hello
+| 2024:06:15 14:58:50,952 | I | STDOUT | <class 'datetime.date'>
+| 2024:06:15 14:58:50,963 | W | root | web\attendance\count.py 108 get EXC	Exception: AttributeError. Argument: ("'int' object has no attribute 'strftime'",)
+| 2024:06:15 14:58:50,964 | D | root | web\attendance\count.py 109 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py LINE: 66 TYPE: <class 'AttributeError'>
+| 2024:06:15 14:58:50,966 | D | root | web\attendance\count.py 117 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:15 14:58:50,966 | I | tornado.access | 200 GET /test (::1) 14.96ms
+| 2024:06:15 14:59:06,804 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 14:59:07,123 | I | root | ------
+| 2024:06:15 14:59:07,154 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 14:59:07,313 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 14:59:07,316 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 14:59:08,478 | I | STDOUT | hello
+| 2024:06:15 14:59:08,497 | W | root | web\attendance\count.py 107 get EXC	Exception: AttributeError. Argument: ("'int' object has no attribute 'strftime'",)
+| 2024:06:15 14:59:08,499 | D | root | web\attendance\count.py 108 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py LINE: 65 TYPE: <class 'AttributeError'>
+| 2024:06:15 14:59:08,500 | D | root | web\attendance\count.py 116 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:15 14:59:08,501 | I | tornado.access | 200 GET /test (::1) 24.06ms
+| 2024:06:15 15:00:40,346 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 15:00:40,709 | I | root | ------
+| 2024:06:15 15:00:40,749 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 15:00:40,929 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 15:00:40,932 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 15:00:44,689 | I | STDOUT | hello
+| 2024:06:15 15:00:44,700 | W | root | web\attendance\count.py 109 get EXC	Exception: AttributeError. Argument: ("'str' object has no attribute 'strftime'",)
+| 2024:06:15 15:00:44,701 | D | root | web\attendance\count.py 110 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py LINE: 66 TYPE: <class 'AttributeError'>
+| 2024:06:15 15:00:44,702 | D | root | web\attendance\count.py 118 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:15 15:00:44,703 | I | tornado.access | 200 GET /test (::1) 14.77ms
+| 2024:06:15 15:01:04,478 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 15:01:04,795 | I | root | ------
+| 2024:06:15 15:01:04,831 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 15:01:04,981 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 15:01:04,985 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 15:01:07,506 | I | STDOUT | hello
+| 2024:06:15 15:01:07,517 | W | root | web\attendance\count.py 109 get EXC	Exception: TypeError. Argument: ("'datetime.date' object cannot be interpreted as an integer",)
+| 2024:06:15 15:01:07,519 | D | root | web\attendance\count.py 110 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py LINE: 64 TYPE: <class 'TypeError'>
+| 2024:06:15 15:01:07,519 | D | root | web\attendance\count.py 118 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:15 15:01:07,521 | I | tornado.access | 200 GET /test (::1) 14.97ms
+| 2024:06:15 15:02:45,507 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 15:02:45,876 | I | root | ------
+| 2024:06:15 15:02:45,921 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 15:02:46,102 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 15:02:46,106 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 15:02:55,450 | I | STDOUT | hello
+| 2024:06:15 15:02:55,490 | I | STDOUT | [{'date': '2024-06-11', 'in_time': '10:50 PM', 'out_time': '10:56 PM', 'is_absent': False}, {'date': '2024-06-10', 'in_time': None, 'out_time': None, 'is_absent': True}, {'date': '2024-06-12', 'in_time': '01:01 PM', 'out_time': None, 'is_absent': False}]
+| 2024:06:15 15:02:55,525 | D | root | web\attendance\count.py 117 get RSP	{'code': 2000, 'status': True, 'message': 'Data fetched successfully', 'result': [{'date': '2024-06-11', 'in_time': '10:50 PM', 'out_time': '10:56 PM', 'is_absent': False}, {'date': '2024-06-10', 'in_time': None, 'out_time': None, 'is_absent': True}, {'date': '2024-06-12', 'in_time': '01:01 PM', 'out_time': None, 'is_absent': False}]}
+| 2024:06:15 15:02:55,526 | I | tornado.access | 200 GET /test (::1) 77.10ms
+| 2024:06:15 15:18:02,626 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 15:18:02,978 | I | root | ------
+| 2024:06:15 15:18:03,027 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 15:18:03,203 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 15:18:03,207 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 15:18:05,162 | I | STDOUT | hello
+| 2024:06:15 15:18:05,180 | W | root | web\attendance\count.py 127 get EXC	Exception: AttributeError. Argument: ("'str' object has no attribute 'strftime'",)
+| 2024:06:15 15:18:05,181 | D | root | web\attendance\count.py 128 get EX2	FILE: C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py LINE: 90 TYPE: <class 'AttributeError'>
+| 2024:06:15 15:18:05,182 | D | root | web\attendance\count.py 136 get RSP	{'code': 5010, 'status': False, 'message': 'Internal Error, Please Contact the Support Team.', 'result': []}
+| 2024:06:15 15:18:05,183 | I | tornado.access | 200 GET /test (::1) 21.26ms
+| 2024:06:15 15:19:13,731 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 15:19:14,051 | I | root | ------
+| 2024:06:15 15:19:14,091 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 15:19:14,267 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 15:19:14,271 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 15:19:16,958 | I | STDOUT | hello
+| 2024:06:15 15:19:16,983 | I | STDOUT | [{'date': '2024-06-01', 'is_absent': False, 'holiday': True}, {'date': '2024-06-02', 'is_absent': False, 'holiday': True}, {'date': '2024-06-03', 'is_absent': True, 'holiday': False}, {'date': '2024-06-04', 'is_absent': True, 'holiday': False}, {'date': '2024-06-05', 'is_absent': True, 'holiday': False}, {'date': '2024-06-06', 'is_absent': True, 'holiday': False}, {'date': '2024-06-07', 'is_absent': True, 'holiday': False}, {'date': '2024-06-08', 'is_absent': False, 'holiday': True}, {'date': '2024-06-09', 'is_absent': False, 'holiday': True}, {'date': '2024-06-10', 'in_time': None, 'out_time': None, 'is_absent': True}, {'date': '2024-06-11', 'in_time': '10:50 PM', 'out_time': '10:56 PM', 'is_absent': False}, {'date': '2024-06-12', 'in_time': '01:01 PM', 'out_time': None, 'is_absent': False}, {'date': '2024-06-13', 'is_absent': True, 'holiday': False}, {'date': '2024-06-14', 'is_absent': True, 'holiday': False}, {'date': '2024-06-15', 'is_absent': False, 'holiday': True}, {'date': '2024-06-16', 'is_absent': False, 'holiday': True}, {'date': '2024-06-17', 'is_absent': True, 'holiday': False}, {'date': '2024-06-18', 'is_absent': True, 'holiday': False}, {'date': '2024-06-19', 'is_absent': True, 'holiday': False}, {'date': '2024-06-20', 'is_absent': True, 'holiday': False}, {'date': '2024-06-21', 'is_absent': True, 'holiday': False}, {'date': '2024-06-22', 'is_absent': False, 'holiday': True}, {'date': '2024-06-23', 'is_absent': False, 'holiday': True}, {'date': '2024-06-24', 'is_absent': True, 'holiday': False}, {'date': '2024-06-25', 'is_absent': True, 'holiday': False}, {'date': '2024-06-26', 'is_absent': True, 'holiday': False}, {'date': '2024-06-27', 'is_absent': True, 'holiday': False}, {'date': '2024-06-28', 'is_absent': True, 'holiday': False}, {'date': '2024-06-29', 'is_absent': False, 'holiday': True}, {'date': '2024-06-30', 'is_absent': False, 'holiday': True}]
+| 2024:06:15 15:19:17,008 | D | root | web\attendance\count.py 136 get RSP	{'code': 2000, 'status': True, 'message': 'Data fetched successfully', 'result': [{'date': '2024-06-01', 'is_absent': False, 'holiday': True}, {'date': '2024-06-02', 'is_absent': False, 'holiday': True}, {'date': '2024-06-03', 'is_absent': True, 'holiday': False}, {'date': '2024-06-04', 'is_absent': True, 'holiday': False}, {'date': '2024-06-05', 'is_absent': True, 'holiday': False}, {'date': '2024-06-06', 'is_absent': True, 'holiday': False}, {'date': '2024-06-07', 'is_absent': True, 'holiday': False}, {'date': '2024-06-08', 'is_absent': False, 'holiday': True}, {'date': '2024-06-09', 'is_absent': False, 'holiday': True}, {'date': '2024-06-10', 'in_time': None, 'out_time': None, 'is_absent': True}, {'date': '2024-06-11', 'in_time': '10:50 PM', 'out_time': '10:56 PM', 'is_absent': False}, {'date': '2024-06-12', 'in_time': '01:01 PM', 'out_time': None, 'is_absent': False}, {'date': '2024-06-13', 'is_absent': True, 'holiday': False}, {'date': '2024-06-14', 'is_absent': True, 'holiday': False}, {'date': '2024-06-15', 'is_absent': False, 'holiday': True}, {'date': '2024-06-16', 'is_absent': False, 'holiday': True}, {'date': '2024-06-17', 'is_absent': True, 'holiday': False}, {'date': '2024-06-18', 'is_absent': True, 'holiday': False}, {'date': '2024-06-19', 'is_absent': True, 'holiday': False}, {'date': '2024-06-20', 'is_absent': True, 'holiday': False}, {'date': '2024-06-21', 'is_absent': True, 'holiday': False}, {'date': '2024-06-22', 'is_absent': False, 'holiday': True}, {'date': '2024-06-23', 'is_absent': False, 'holiday': True}, {'date': '2024-06-24', 'is_absent': True, 'holiday': False}, {'date': '2024-06-25', 'is_absent': True, 'holiday': False}, {'date': '2024-06-26', 'is_absent': True, 'holiday': False}, {'date': '2024-06-27', 'is_absent': True, 'holiday': False}, {'date': '2024-06-28', 'is_absent': True, 'holiday': False}, {'date': '2024-06-29', 'is_absent': False, 'holiday': True}, {'date': '2024-06-30', 'is_absent': False, 'holiday': True}]}
+| 2024:06:15 15:19:17,010 | I | tornado.access | 200 GET /test (::1) 52.60ms
+| 2024:06:15 15:21:37,305 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 15:21:37,634 | I | root | ------
+| 2024:06:15 15:21:37,674 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 15:21:37,851 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 15:21:37,855 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 15:23:17,393 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 15:23:17,949 | I | root | ------
+| 2024:06:15 15:23:18,034 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 15:23:18,272 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 15:23:18,290 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:15 15:23:19,994 | I | STDOUT | hello
+| 2024:06:15 15:23:20,051 | D | root | web\attendance\count.py 138 get RSP	{'code': 2000, 'status': True, 'message': 'Data fetched successfully', 'result': [{'date': '2024-06-01', 'is_absent': False, 'holiday': True}, {'date': '2024-06-02', 'is_absent': False, 'holiday': True}, {'date': '2024-06-03', 'is_absent': True, 'holiday': False}, {'date': '2024-06-04', 'is_absent': True, 'holiday': False}, {'date': '2024-06-05', 'is_absent': True, 'holiday': False}, {'date': '2024-06-06', 'is_absent': True, 'holiday': False}, {'date': '2024-06-07', 'is_absent': True, 'holiday': False}, {'date': '2024-06-08', 'is_absent': False, 'holiday': True}, {'date': '2024-06-09', 'is_absent': False, 'holiday': True}, {'date': '2024-06-10', 'in_time': None, 'out_time': None, 'is_absent': True}, {'date': '2024-06-11', 'in_time': '10:50 PM', 'out_time': '10:56 PM', 'is_absent': False}, {'date': '2024-06-12', 'in_time': '01:01 PM', 'out_time': None, 'is_absent': False}, {'date': '2024-06-13', 'is_absent': True, 'holiday': False}, {'date': '2024-06-14', 'is_absent': True, 'holiday': False}, {'date': '2024-06-15', 'is_absent': False, 'holiday': True}, {'date': '2024-06-16', 'is_absent': False, 'holiday': True}, {'date': '2024-06-17', 'is_absent': True, 'holiday': False}, {'date': '2024-06-18', 'is_absent': True, 'holiday': False}, {'date': '2024-06-19', 'is_absent': True, 'holiday': False}, {'date': '2024-06-20', 'is_absent': True, 'holiday': False}, {'date': '2024-06-21', 'is_absent': True, 'holiday': False}, {'date': '2024-06-22', 'is_absent': False, 'holiday': True}, {'date': '2024-06-23', 'is_absent': False, 'holiday': True}, {'date': '2024-06-24', 'is_absent': True, 'holiday': False}, {'date': '2024-06-25', 'is_absent': True, 'holiday': False}, {'date': '2024-06-26', 'is_absent': True, 'holiday': False}, {'date': '2024-06-27', 'is_absent': True, 'holiday': False}, {'date': '2024-06-28', 'is_absent': True, 'holiday': False}, {'date': '2024-06-29', 'is_absent': False, 'holiday': True}, {'date': '2024-06-30', 'is_absent': False, 'holiday': True}]}
+| 2024:06:15 15:23:20,052 | I | tornado.access | 200 GET /test (::1) 59.20ms
+| 2024:06:15 15:26:51,307 | I | tornado.general | C:\Users\asabi\OneDrive\Desktop\officeManagement\server\web\attendance\count.py modified; restarting server
+| 2024:06:15 15:26:51,618 | I | root | ------
+| 2024:06:15 15:26:51,660 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:15 15:26:51,847 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:15 15:26:51,850 | I | root | main.py 77 __init__ APP	Running Tornado Application Port - [ 5166 ]

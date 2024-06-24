@@ -1,0 +1,89 @@
+| 2024:06:12 09:15:02,791 | I | root | ------
+| 2024:06:12 09:15:02,831 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:12 09:15:02,840 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:12 09:15:02,844 | I | root | main.py 42 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:12 09:15:55,237 | E | tornado.application | Uncaught exception POST /v1/api/login (::1)
+HTTPServerRequest(protocol='http', host='localhost:5166', method='POST', uri='/v1/api/login', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\site-packages\tornado\web.py", line 1769, in _execute
+    result = await result  # type: ignore
+             ^^^^^^^^^^^^
+  File "C:\Users\asabi\OneDrive\Desktop\officeManagement\server\main.py", line 19, in prepare
+    if not self.request.closed:
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'HTTPServerRequest' object has no attribute 'closed'
+| 2024:06:12 09:15:55,242 | E | tornado.access | 500 POST /v1/api/login (::1) 6.08ms
+| 2024:06:12 09:17:30,005 | E | STDERR | Traceback (most recent call last):
+| 2024:06:12 09:17:30,006 | E | STDERR |   File "C:\Users\asabi\OneDrive\Desktop\officeManagement\server\main.py", line 48, in <module>
+| 2024:06:12 09:17:30,007 | E | STDERR |     tornado.ioloop.IOLoop.current().start()
+| 2024:06:12 09:17:30,007 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\site-packages\tornado\platform\asyncio.py", line 205, in start
+| 2024:06:12 09:17:30,016 | E | STDERR |     self.asyncio_loop.run_forever()
+| 2024:06:12 09:17:30,016 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+| 2024:06:12 09:17:30,024 | E | STDERR |     super().run_forever()
+| 2024:06:12 09:17:30,025 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+| 2024:06:12 09:17:30,035 | E | STDERR |     self._run_once()
+| 2024:06:12 09:17:30,035 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1884, in _run_once
+| 2024:06:12 09:17:30,036 | E | STDERR |     event_list = self._selector.select(timeout)
+| 2024:06:12 09:17:30,036 | E | STDERR |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| 2024:06:12 09:17:30,036 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 444, in select
+| 2024:06:12 09:17:30,036 | E | STDERR |     self._poll(timeout)
+| 2024:06:12 09:17:30,036 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 817, in _poll
+| 2024:06:12 09:17:30,036 | E | STDERR |     status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+| 2024:06:12 09:17:30,036 | E | STDERR |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| 2024:06:12 09:17:30,036 | E | STDERR | KeyboardInterrupt
+| 2024:06:12 09:17:30,627 | I | root | ------
+| 2024:06:12 09:17:30,667 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:12 09:17:30,678 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:12 09:17:30,681 | I | root | main.py 42 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:12 09:17:39,105 | E | tornado.application | Uncaught exception POST /v1/api/login (::1)
+HTTPServerRequest(protocol='http', host='localhost:5166', method='POST', uri='/v1/api/login', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\site-packages\tornado\web.py", line 1769, in _execute
+    result = await result  # type: ignore
+             ^^^^^^^^^^^^
+  File "C:\Users\asabi\OneDrive\Desktop\officeManagement\server\main.py", line 19, in prepare
+    if not self.request.closed:
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'HTTPServerRequest' object has no attribute 'closed'
+| 2024:06:12 09:17:39,107 | E | tornado.access | 500 POST /v1/api/login (::1) 2.04ms
+| 2024:06:12 09:20:17,010 | E | STDERR | Traceback (most recent call last):
+| 2024:06:12 09:20:17,010 | E | STDERR |   File "C:\Users\asabi\OneDrive\Desktop\officeManagement\server\main.py", line 48, in <module>
+| 2024:06:12 09:20:17,011 | E | STDERR |     tornado.ioloop.IOLoop.current().start()
+| 2024:06:12 09:20:17,011 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\site-packages\tornado\platform\asyncio.py", line 205, in start
+| 2024:06:12 09:20:17,011 | E | STDERR |     self.asyncio_loop.run_forever()
+| 2024:06:12 09:20:17,011 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+| 2024:06:12 09:20:17,011 | E | STDERR |     super().run_forever()
+| 2024:06:12 09:20:17,011 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+| 2024:06:12 09:20:17,012 | E | STDERR |     self._run_once()
+| 2024:06:12 09:20:17,012 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1884, in _run_once
+| 2024:06:12 09:20:17,012 | E | STDERR |     event_list = self._selector.select(timeout)
+| 2024:06:12 09:20:17,013 | E | STDERR |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| 2024:06:12 09:20:17,013 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 444, in select
+| 2024:06:12 09:20:17,013 | E | STDERR |     self._poll(timeout)
+| 2024:06:12 09:20:17,013 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 817, in _poll
+| 2024:06:12 09:20:17,013 | E | STDERR |     status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+| 2024:06:12 09:20:17,013 | E | STDERR |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| 2024:06:12 09:20:17,013 | E | STDERR | KeyboardInterrupt
+| 2024:06:12 09:22:43,700 | I | root | ------
+| 2024:06:12 09:22:43,739 | I | root | <frozen importlib._bootstrap> 241 _call_with_frames_removed All Logs written in ./log/run.log
+| 2024:06:12 09:22:43,746 | D | asyncio | Using proactor: IocpProactor
+| 2024:06:12 09:22:43,749 | I | root | main.py 41 __init__ APP	Running Tornado Application Port - [ 5166 ]
+| 2024:06:12 09:22:48,297 | W | tornado.access | 405 POST /v1/api/login (::1) 2.00ms
+| 2024:06:12 09:23:38,390 | E | STDERR | Traceback (most recent call last):
+| 2024:06:12 09:23:38,390 | E | STDERR |   File "C:\Users\asabi\OneDrive\Desktop\officeManagement\server\main.py", line 47, in <module>
+| 2024:06:12 09:23:38,392 | E | STDERR |     tornado.ioloop.IOLoop.current().start()
+| 2024:06:12 09:23:38,392 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\site-packages\tornado\platform\asyncio.py", line 205, in start
+| 2024:06:12 09:23:38,392 | E | STDERR |     self.asyncio_loop.run_forever()
+| 2024:06:12 09:23:38,392 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 321, in run_forever
+| 2024:06:12 09:23:38,392 | E | STDERR |     super().run_forever()
+| 2024:06:12 09:23:38,392 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 607, in run_forever
+| 2024:06:12 09:23:38,392 | E | STDERR |     self._run_once()
+| 2024:06:12 09:23:38,392 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1884, in _run_once
+| 2024:06:12 09:23:38,393 | E | STDERR |     event_list = self._selector.select(timeout)
+| 2024:06:12 09:23:38,393 | E | STDERR |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| 2024:06:12 09:23:38,393 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 444, in select
+| 2024:06:12 09:23:38,393 | E | STDERR |     self._poll(timeout)
+| 2024:06:12 09:23:38,394 | E | STDERR |   File "C:\Users\asabi\AppData\Local\Programs\Python\Python311\Lib\asyncio\windows_events.py", line 817, in _poll
+| 2024:06:12 09:23:38,394 | E | STDERR |     status = _overlapped.GetQueuedCompletionStatus(self._iocp, ms)
+| 2024:06:12 09:23:38,394 | E | STDERR |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+| 2024:06:12 09:23:38,394 | E | STDERR | KeyboardInterrupt
